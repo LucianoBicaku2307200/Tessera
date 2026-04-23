@@ -1,0 +1,315 @@
+// Utility classes mapped to design tokens
+// ============================================================================
+
+// COLORS — Text
+// ============================================================================
+
+.text-color-neutral-0 {
+    color: var(--color-neutral-0);
+}
+
+.text-color-neutral-50 {
+    color: var(--color-neutral-50);
+}
+
+.text-color-neutral-100 {
+    color: var(--color-neutral-100);
+}
+
+.text-color-neutral-200 {
+    color: var(--color-neutral-200);
+}
+
+.text-color-neutral-300 {
+    color: var(--color-neutral-300);
+}
+
+.text-color-neutral-400 {
+    color: var(--color-neutral-400);
+}
+
+.text-color-neutral-500 {
+    color: var(--color-neutral-500);
+}
+
+.text-color-neutral-600 {
+    color: var(--color-neutral-600);
+}
+
+.text-color-neutral-700 {
+    color: var(--color-neutral-700);
+}
+
+.text-color-neutral-800 {
+    color: var(--color-neutral-800);
+}
+
+.text-color-neutral-900 {
+    color: var(--color-neutral-900);
+}
+
+.text-color-accent-100 {
+    color: var(--color-accent-100);
+}
+
+.text-color-accent-200 {
+    color: var(--color-accent-200);
+}
+
+.text-color-accent-300 {
+    color: var(--color-accent-300);
+}
+
+.text-color-accent-500 {
+    color: var(--color-accent-500);
+}
+
+.text-color-accent-700 {
+    color: var(--color-accent-700);
+}
+
+.text-color-success {
+    color: var(--color-success);
+}
+
+.text-color-success-bg {
+    color: var(--color-success-bg);
+}
+
+.text-color-warning {
+    color: var(--color-warning);
+}
+
+.text-color-warning-bg {
+    color: var(--color-warning-bg);
+}
+
+.text-color-error {
+    color: var(--color-error);
+}
+
+.text-color-error-bg {
+    color: var(--color-error-bg);
+}
+
+.text-color-info {
+    color: var(--color-info);
+}
+
+.text-color-info-bg {
+    color: var(--color-info-bg);
+}
+
+// COLORS — Background
+// ============================================================================
+
+.bg-color-neutral-0 {
+    background: var(--color-neutral-0);
+}
+
+.bg-color-neutral-50 {
+    background: var(--color-neutral-50);
+}
+
+.bg-color-neutral-100 {
+    background: var(--color-neutral-100);
+}
+
+.bg-color-neutral-200 {
+    background: var(--color-neutral-200);
+}
+
+.bg-color-neutral-300 {
+    background: var(--color-neutral-300);
+}
+
+.bg-color-neutral-400 {
+    background: var(--color-neutral-400);
+}
+
+.bg-color-neutral-500 {
+    background: var(--color-neutral-500);
+}
+
+.bg-color-neutral-600 {
+    background: var(--color-neutral-600);
+}
+
+.bg-color-neutral-700 {
+    background: var(--color-neutral-700);
+}
+
+.bg-color-neutral-800 {
+    background: var(--color-neutral-800);
+}
+
+.bg-color-neutral-900 {
+    background: var(--color-neutral-900);
+}
+
+.bg-color-accent-100 {
+    background: var(--color-accent-100);
+}
+
+.bg-color-accent-200 {
+    background: var(--color-accent-200);
+}
+
+.bg-color-accent-300 {
+    background: var(--color-accent-300);
+}
+
+.bg-color-accent-500 {
+    background: var(--color-accent-500);
+}
+
+.bg-color-accent-700 {
+    background: var(--color-accent-700);
+}
+
+.bg-color-success {
+    background: var(--color-success);
+}
+
+.bg-color-success-bg {
+    background: var(--color-success-bg);
+}
+
+.bg-color-warning {
+    background: var(--color-warning);
+}
+
+.bg-color-warning-bg {
+    background: var(--color-warning-bg);
+}
+
+.bg-color-error {
+    background: var(--color-error);
+}
+
+.bg-color-error-bg {
+    background: var(--color-error-bg);
+}
+
+.bg-color-info {
+    background: var(--color-info);
+}
+
+.bg-color-info-bg {
+    background: var(--color-info-bg);
+}
+
+// FONT SIZES
+// ============================================================================
+
+.font-size-display-xl {
+    font-size: var(--font-size-display-xl);
+}
+
+.font-size-display-l {
+    font-size: var(--font-size-display-l);
+}
+
+.font-size-h1 {
+    font-size: var(--font-size-h1);
+}
+
+.font-size-h2 {
+    font-size: var(--font-size-h2);
+}
+
+.font-size-h3 {
+    font-size: var(--font-size-h3);
+}
+
+.font-size-h4 {
+    font-size: var(--font-size-h4);
+}
+
+.font-size-body-l {
+    font-size: var(--font-size-body-l);
+}
+
+.font-size-body {
+    font-size: var(--font-size-body);
+}
+
+.font-size-body-s {
+    font-size: var(--font-size-body-s);
+}
+
+.font-size-caption {
+    font-size: var(--font-size-caption);
+}
+
+.font-size-overline {
+    font-size: var(--font-size-overline);
+}
+
+// BORDER RADIUS
+// ============================================================================
+
+.radius-sm {
+    border-radius: var(--radius-sm);
+}
+
+.radius-md {
+    border-radius: var(--radius-md);
+}
+
+.radius-lg {
+    border-radius: var(--radius-lg);
+}
+
+.radius-xl {
+    border-radius: var(--radius-xl);
+}
+
+.radius-full {
+    border-radius: var(--radius-full);
+}
+
+// SHADOWS
+// ============================================================================
+
+.shadow-0 {
+    box-shadow: var(--shadow-0);
+}
+
+.shadow-1 {
+    box-shadow: var(--shadow-1);
+}
+
+.shadow-2 {
+    box-shadow: var(--shadow-2);
+}
+
+.shadow-3 {
+    box-shadow: var(--shadow-3);
+}
+
+.shadow-4 {
+    box-shadow: var(--shadow-4);
+}
+
+// BORDERS
+// ============================================================================
+
+.border-hairline {
+    border: var(--border-hairline);
+}
+
+.border-1 {
+    border: var(--border-1);
+}
+
+.border-2 {
+    border: var(--border-2);
+}
+
+// MOTION
+// ============================================================================
+
+.ease {
+    transition-timing-function: var(--ease);
+}

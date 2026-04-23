@@ -3689,411 +3689,418 @@
     ]
   },
   {
-    "name": "i18n.AtlasGlobalStyleVariables",
+    "name": "i18n.tesseraGlobalStyleVariables",
     "settings": [
-      { "type": "heading", "content": "i18n.AtlasNeutralColors" },
+      { "type": "heading", "content": "i18n.tesseraNeutralColors" },
       {
         "type": "color",
-        "label": "i18n.AtlasColorNeutral0",
-        "id": "atlas-color-neutral-0",
+        "label": "i18n.tesseraColorNeutral0",
+        "id": "tessera-color-neutral-0",
         "force_reload": true
       },
       {
         "type": "color",
-        "label": "i18n.AtlasColorNeutral50",
-        "id": "atlas-color-neutral-50",
+        "label": "i18n.tesseraColorNeutral50",
+        "id": "tessera-color-neutral-50",
         "force_reload": true
       },
       {
         "type": "color",
-        "label": "i18n.AtlasColorNeutral100",
-        "id": "atlas-color-neutral-100",
+        "label": "i18n.tesseraColorNeutral100",
+        "id": "tessera-color-neutral-100",
         "force_reload": true
       },
       {
         "type": "color",
-        "label": "i18n.AtlasColorNeutral200",
-        "id": "atlas-color-neutral-200",
+        "label": "i18n.tesseraColorNeutral200",
+        "id": "tessera-color-neutral-200",
         "force_reload": true
       },
       {
         "type": "color",
-        "label": "i18n.AtlasColorNeutral300",
-        "id": "atlas-color-neutral-300",
+        "label": "i18n.tesseraColorNeutral300",
+        "id": "tessera-color-neutral-300",
         "force_reload": true
       },
       {
         "type": "color",
-        "label": "i18n.AtlasColorNeutral400",
-        "id": "atlas-color-neutral-400",
+        "label": "i18n.tesseraColorNeutral400",
+        "id": "tessera-color-neutral-400",
         "force_reload": true
       },
       {
         "type": "color",
-        "label": "i18n.AtlasColorNeutral500",
-        "id": "atlas-color-neutral-500",
+        "label": "i18n.tesseraColorNeutral500",
+        "id": "tessera-color-neutral-500",
         "force_reload": true
       },
       {
         "type": "color",
-        "label": "i18n.AtlasColorNeutral600",
-        "id": "atlas-color-neutral-600",
+        "label": "i18n.tesseraColorNeutral600",
+        "id": "tessera-color-neutral-600",
         "force_reload": true
       },
       {
         "type": "color",
-        "label": "i18n.AtlasColorNeutral700",
-        "id": "atlas-color-neutral-700",
+        "label": "i18n.tesseraColorNeutral700",
+        "id": "tessera-color-neutral-700",
         "force_reload": true
       },
       {
         "type": "color",
-        "label": "i18n.AtlasColorNeutral800",
-        "id": "atlas-color-neutral-800",
+        "label": "i18n.tesseraColorNeutral800",
+        "id": "tessera-color-neutral-800",
         "force_reload": true
       },
       {
         "type": "color",
-        "label": "i18n.AtlasColorNeutral900",
-        "id": "atlas-color-neutral-900",
+        "label": "i18n.tesseraColorNeutral900",
+        "id": "tessera-color-neutral-900",
         "force_reload": true
       },
 
-      { "type": "heading", "content": "i18n.AtlasAccentColors" },
+      { "type": "heading", "content": "i18n.tesseraAccentColors" },
       {
         "type": "color",
-        "label": "i18n.AtlasColorAccent100",
-        "id": "atlas-color-accent-100",
+        "label": "i18n.tesseraColorAccent100",
+        "id": "tessera-color-accent-100",
         "force_reload": true
       },
       {
         "type": "color",
-        "label": "i18n.AtlasColorAccent200",
-        "id": "atlas-color-accent-200",
+        "label": "i18n.tesseraColorAccent200",
+        "id": "tessera-color-accent-200",
         "force_reload": true
       },
       {
         "type": "color",
-        "label": "i18n.AtlasColorAccent300",
-        "id": "atlas-color-accent-300",
+        "label": "i18n.tesseraColorAccent300",
+        "id": "tessera-color-accent-300",
         "force_reload": true
       },
       {
         "type": "color",
-        "label": "i18n.AtlasColorAccent500",
-        "id": "atlas-color-accent-500",
+        "label": "i18n.tesseraColorAccent500",
+        "id": "tessera-color-accent-500",
         "force_reload": true
       },
       {
         "type": "color",
-        "label": "i18n.AtlasColorAccent700",
-        "id": "atlas-color-accent-700",
+        "label": "i18n.tesseraColorAccent700",
+        "id": "tessera-color-accent-700",
         "force_reload": true
       },
 
-      { "type": "heading", "content": "i18n.AtlasSemanticColors" },
+      { "type": "heading", "content": "i18n.tesseraSemanticColors" },
       {
         "type": "color",
-        "label": "i18n.AtlasColorSuccess",
-        "id": "atlas-color-success",
+        "label": "i18n.tesseraColorSuccess",
+        "id": "tessera-color-success",
         "force_reload": true
       },
       {
         "type": "color",
-        "label": "i18n.AtlasColorSuccessBg",
-        "id": "atlas-color-success-bg",
+        "label": "i18n.tesseraColorSuccessBg",
+        "id": "tessera-color-success-bg",
         "force_reload": true
       },
       {
         "type": "color",
-        "label": "i18n.AtlasColorWarning",
-        "id": "atlas-color-warning",
+        "label": "i18n.tesseraColorWarning",
+        "id": "tessera-color-warning",
         "force_reload": true
       },
       {
         "type": "color",
-        "label": "i18n.AtlasColorWarningBg",
-        "id": "atlas-color-warning-bg",
+        "label": "i18n.tesseraColorWarningBg",
+        "id": "tessera-color-warning-bg",
         "force_reload": true
       },
       {
         "type": "color",
-        "label": "i18n.AtlasColorError",
-        "id": "atlas-color-error",
+        "label": "i18n.tesseraColorError",
+        "id": "tessera-color-error",
         "force_reload": true
       },
       {
         "type": "color",
-        "label": "i18n.AtlasColorErrorBg",
-        "id": "atlas-color-error-bg",
+        "label": "i18n.tesseraColorErrorBg",
+        "id": "tessera-color-error-bg",
         "force_reload": true
       },
       {
         "type": "color",
-        "label": "i18n.AtlasColorInfo",
-        "id": "atlas-color-info",
+        "label": "i18n.tesseraColorInfo",
+        "id": "tessera-color-info",
         "force_reload": true
       },
       {
         "type": "color",
-        "label": "i18n.AtlasColorInfoBg",
-        "id": "atlas-color-info-bg",
+        "label": "i18n.tesseraColorInfoBg",
+        "id": "tessera-color-info-bg",
         "force_reload": true
       },
 
-      { "type": "heading", "content": "i18n.AtlasTypographySizes" },
+      { "type": "heading", "content": "i18n.tesseraTypographySizes" },
       {
         "type": "text",
-        "label": "i18n.AtlasFontSizeDisplayXl",
-        "id": "atlas-font-size-display-xl",
-        "default": "96px",
-        "force_reload": true
-      },
-      {
-        "type": "text",
-        "label": "i18n.AtlasFontSizeDisplayL",
-        "id": "atlas-font-size-display-l",
-        "default": "72px",
-        "force_reload": true
-      },
-      {
-        "type": "text",
-        "label": "i18n.AtlasFontSizeH1",
-        "id": "atlas-font-size-h1",
-        "default": "48px",
-        "force_reload": true
-      },
-      {
-        "type": "text",
-        "label": "i18n.AtlasFontSizeH2",
-        "id": "atlas-font-size-h2",
-        "default": "36px",
-        "force_reload": true
-      },
-      {
-        "type": "text",
-        "label": "i18n.AtlasFontSizeH3",
-        "id": "atlas-font-size-h3",
-        "default": "26px",
-        "force_reload": true
-      },
-      {
-        "type": "text",
-        "label": "i18n.AtlasFontSizeH4",
-        "id": "atlas-font-size-h4",
-        "default": "20px",
-        "force_reload": true
-      },
-      {
-        "type": "text",
-        "label": "i18n.AtlasFontSizeBodyL",
-        "id": "atlas-font-size-body-l",
-        "default": "18px",
-        "force_reload": true
-      },
-      {
-        "type": "text",
-        "label": "i18n.AtlasFontSizeBody",
-        "id": "atlas-font-size-body",
-        "default": "15px",
-        "force_reload": true
-      },
-      {
-        "type": "text",
-        "label": "i18n.AtlasFontSizeBodyS",
-        "id": "atlas-font-size-body-s",
-        "default": "13px",
-        "force_reload": true
-      },
-      {
-        "type": "text",
-        "label": "i18n.AtlasFontSizeCaption",
-        "id": "atlas-font-size-caption",
-        "default": "12px",
-        "force_reload": true
-      },
-      {
-        "type": "text",
-        "label": "i18n.AtlasFontSizeOverline",
-        "id": "atlas-font-size-overline",
-        "default": "11px",
-        "force_reload": true
-      },
-
-      { "type": "heading", "content": "i18n.AtlasSpacing" },
-      {
-        "type": "text",
-        "label": "i18n.AtlasSpace1",
-        "id": "atlas-space-1",
-        "default": "4px",
-        "force_reload": true
-      },
-      {
-        "type": "text",
-        "label": "i18n.AtlasSpace2",
-        "id": "atlas-space-2",
-        "default": "8px",
-        "force_reload": true
-      },
-      {
-        "type": "text",
-        "label": "i18n.AtlasSpace3",
-        "id": "atlas-space-3",
-        "default": "12px",
-        "force_reload": true
-      },
-      {
-        "type": "text",
-        "label": "i18n.AtlasSpace4",
-        "id": "atlas-space-4",
+        "label": "i18n.tesseraFontBase",
+        "id": "tessera-font-base",
         "default": "16px",
         "force_reload": true
       },
       {
         "type": "text",
-        "label": "i18n.AtlasSpace5",
-        "id": "atlas-space-5",
-        "default": "24px",
+        "label": "i18n.tesseraFontSizeDisplayXl",
+        "id": "tessera-font-size-display-xl",
+        "default": "6rem",
         "force_reload": true
       },
       {
         "type": "text",
-        "label": "i18n.AtlasSpace6",
-        "id": "atlas-space-6",
-        "default": "32px",
+        "label": "i18n.tesseraFontSizeDisplayL",
+        "id": "tessera-font-size-display-l",
+        "default": "4.5rem",
         "force_reload": true
       },
       {
         "type": "text",
-        "label": "i18n.AtlasSpace7",
-        "id": "atlas-space-7",
-        "default": "48px",
+        "label": "i18n.tesseraFontSizeH1",
+        "id": "tessera-font-size-h1",
+        "default": "3rem",
         "force_reload": true
       },
       {
         "type": "text",
-        "label": "i18n.AtlasSpace8",
-        "id": "atlas-space-8",
-        "default": "64px",
+        "label": "i18n.tesseraFontSizeH2",
+        "id": "tessera-font-size-h2",
+        "default": "2.25rem",
         "force_reload": true
       },
       {
         "type": "text",
-        "label": "i18n.AtlasSpace9",
-        "id": "atlas-space-9",
-        "default": "96px",
+        "label": "i18n.tesseraFontSizeH3",
+        "id": "tessera-font-size-h3",
+        "default": "1.625rem",
         "force_reload": true
       },
       {
         "type": "text",
-        "label": "i18n.AtlasSpace10",
-        "id": "atlas-space-10",
-        "default": "128px",
+        "label": "i18n.tesseraFontSizeH4",
+        "id": "tessera-font-size-h4",
+        "default": "1.25rem",
+        "force_reload": true
+      },
+      {
+        "type": "text",
+        "label": "i18n.tesseraFontSizeBodyL",
+        "id": "tessera-font-size-body-l",
+        "default": "1.125rem",
+        "force_reload": true
+      },
+      {
+        "type": "text",
+        "label": "i18n.tesseraFontSizeBody",
+        "id": "tessera-font-size-body",
+        "default": "0.9375rem",
+        "force_reload": true
+      },
+      {
+        "type": "text",
+        "label": "i18n.tesseraFontSizeBodyS",
+        "id": "tessera-font-size-body-s",
+        "default": "0.8125rem",
+        "force_reload": true
+      },
+      {
+        "type": "text",
+        "label": "i18n.tesseraFontSizeCaption",
+        "id": "tessera-font-size-caption",
+        "default": "0.75rem",
+        "force_reload": true
+      },
+      {
+        "type": "text",
+        "label": "i18n.tesseraFontSizeOverline",
+        "id": "tessera-font-size-overline",
+        "default": "0.6875rem",
         "force_reload": true
       },
 
-      { "type": "heading", "content": "i18n.AtlasRadius" },
+      { "type": "heading", "content": "i18n.tesseraSpacing" },
       {
         "type": "text",
-        "label": "i18n.AtlasRadiusSm",
-        "id": "atlas-radius-sm",
+        "label": "i18n.tesseraSpace1",
+        "id": "tessera-space-1",
+        "default": "0.25rem",
+        "force_reload": true
+      },
+      {
+        "type": "text",
+        "label": "i18n.tesseraSpace2",
+        "id": "tessera-space-2",
+        "default": "0.5rem",
+        "force_reload": true
+      },
+      {
+        "type": "text",
+        "label": "i18n.tesseraSpace3",
+        "id": "tessera-space-3",
+        "default": "0.75rem",
+        "force_reload": true
+      },
+      {
+        "type": "text",
+        "label": "i18n.tesseraSpace4",
+        "id": "tessera-space-4",
+        "default": "1rem",
+        "force_reload": true
+      },
+      {
+        "type": "text",
+        "label": "i18n.tesseraSpace5",
+        "id": "tessera-space-5",
+        "default": "1.5rem",
+        "force_reload": true
+      },
+      {
+        "type": "text",
+        "label": "i18n.tesseraSpace6",
+        "id": "tessera-space-6",
+        "default": "2rem",
+        "force_reload": true
+      },
+      {
+        "type": "text",
+        "label": "i18n.tesseraSpace7",
+        "id": "tessera-space-7",
+        "default": "3rem",
+        "force_reload": true
+      },
+      {
+        "type": "text",
+        "label": "i18n.tesseraSpace8",
+        "id": "tessera-space-8",
+        "default": "4rem",
+        "force_reload": true
+      },
+      {
+        "type": "text",
+        "label": "i18n.tesseraSpace9",
+        "id": "tessera-space-9",
+        "default": "6rem",
+        "force_reload": true
+      },
+      {
+        "type": "text",
+        "label": "i18n.tesseraSpace10",
+        "id": "tessera-space-10",
+        "default": "8rem",
+        "force_reload": true
+      },
+
+      { "type": "heading", "content": "i18n.tesseraRadius" },
+      {
+        "type": "text",
+        "label": "i18n.tesseraRadiusSm",
+        "id": "tessera-radius-sm",
         "default": "2px",
         "force_reload": true
       },
       {
         "type": "text",
-        "label": "i18n.AtlasRadiusMd",
-        "id": "atlas-radius-md",
+        "label": "i18n.tesseraRadiusMd",
+        "id": "tessera-radius-md",
         "default": "4px",
         "force_reload": true
       },
       {
         "type": "text",
-        "label": "i18n.AtlasRadiusLg",
-        "id": "atlas-radius-lg",
+        "label": "i18n.tesseraRadiusLg",
+        "id": "tessera-radius-lg",
         "default": "8px",
         "force_reload": true
       },
       {
         "type": "text",
-        "label": "i18n.AtlasRadiusXl",
-        "id": "atlas-radius-xl",
+        "label": "i18n.tesseraRadiusXl",
+        "id": "tessera-radius-xl",
         "default": "16px",
         "force_reload": true
       },
       {
         "type": "text",
-        "label": "i18n.AtlasRadiusFull",
-        "id": "atlas-radius-full",
+        "label": "i18n.tesseraRadiusFull",
+        "id": "tessera-radius-full",
         "default": "999px",
         "force_reload": true
       },
 
-      { "type": "heading", "content": "i18n.AtlasShadow" },
+      { "type": "heading", "content": "i18n.tesseraShadow" },
       {
         "type": "text",
-        "label": "i18n.AtlasShadow0",
-        "id": "atlas-shadow-0",
+        "label": "i18n.tesseraShadow0",
+        "id": "tessera-shadow-0",
         "default": "none",
         "force_reload": true
       },
       {
         "type": "text",
-        "label": "i18n.AtlasShadow1",
-        "id": "atlas-shadow-1",
+        "label": "i18n.tesseraShadow1",
+        "id": "tessera-shadow-1",
         "default": "0 1px 2px rgba(26, 25, 21, 0.05)",
         "force_reload": true
       },
       {
         "type": "text",
-        "label": "i18n.AtlasShadow2",
-        "id": "atlas-shadow-2",
+        "label": "i18n.tesseraShadow2",
+        "id": "tessera-shadow-2",
         "default": "0 2px 6px rgba(26,25,21,0.06),0 1px 2px rgba(26,25,21,0.04)",
         "force_reload": true
       },
       {
         "type": "text",
-        "label": "i18n.AtlasShadow3",
-        "id": "atlas-shadow-3",
+        "label": "i18n.tesseraShadow3",
+        "id": "tessera-shadow-3",
         "default": "0 8px 20px rgba(26,25,21,0.07), 0 2px 6px rgba(26,25,21,0.04)",
         "force_reload": true
       },
       {
         "type": "text",
-        "label": "i18n.AtlasShadow4",
-        "id": "atlas-shadow-4",
+        "label": "i18n.tesseraShadow4",
+        "id": "tessera-shadow-4",
         "default": "0 18px 40px rgba(26, 25, 21, 0.10),0 4px 12px rgba(26,25,21,0.05)",
         "force_reload": true
       },
 
-      { "type": "heading", "content": "i18n.AtlasBorders" },
+      { "type": "heading", "content": "i18n.tesseraBorders" },
       {
         "type": "text",
-        "label": "i18n.AtlasBorderHairline",
-        "id": "atlas-border-hairline",
+        "label": "i18n.tesseraBorderHairline",
+        "id": "tessera-border-hairline",
         "default": "0.5px solid var(--color-neutral-200)",
         "force_reload": true
       },
       {
         "type": "text",
-        "label": "i18n.AtlasBorder1",
-        "id": "atlas-border-1",
+        "label": "i18n.tesseraBorder1",
+        "id": "tessera-border-1",
         "default": "1px solid var(--color-neutral-200)",
         "force_reload": true
       },
       {
         "type": "text",
-        "label": "i18n.AtlasBorder2",
-        "id": "atlas-border-2",
+        "label": "i18n.tesseraBorder2",
+        "id": "tessera-border-2",
         "default": "2px solid var(--color-neutral-900)",
         "force_reload": true
       },
 
-      { "type": "heading", "content": "i18n.AtlasMotion" },
+      { "type": "heading", "content": "i18n.tesseraMotion" },
       {
         "type": "text",
-        "label": "i18n.AtlasEase",
-        "id": "atlas-ease",
+        "label": "i18n.tesseraEase",
+        "id": "tessera-ease",
         "default": "cubic-bezier(0.2, 0.7, 0.2, 1)",
         "force_reload": true
       }

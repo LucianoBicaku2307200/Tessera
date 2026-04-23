@@ -77,3 +77,16 @@
 // -----------------------------------------------------------------------------
 
 @import "layouts/layouts"; // 1
+
+
+
+// Tessera theme
+// -----------------------------------------------------------------------------
+//
+// 1. Tessera theme variables and overrides.
+// 2. Tessera theme utility classes.
+//
+// -----------------------------------------------------------------------------
+
+@import "tessara/variables"; // 1
+@import "tessara/utility-classes"; // 2

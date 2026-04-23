@@ -6022,26 +6022,26 @@
     "pl": "Bolt",
     "ja": "Bolt"
   },
-  "i18n.AtlasGlobalStyleVariables": {
-    "default": "Atlas global style Variables",
-    "fr": "Variables de style global Atlas",
-    "it": "Variabili di stile globale Atlas",
-    "zh": "Atlas 全局样式变量",
-    "de": "Globale Atlas-Stilvariablen",
-    "es": "Variables de estilo global de Atlas",
-    "nl": "Atlas globale stijlvariabelen",
-    "pt": "Variáveis de estilo global Atlas",
-    "pt-BR": "Variáveis de estilo global Atlas",
-    "sv": "Atlas globala stilvariabler",
-    "es-MX": "Variables de estilo global de Atlas",
-    "es-419": "Variables de estilo global de Atlas",
-    "da": "Atlas globale stilvariable",
-    "no": "Atlas globale stilvariabler",
-    "ko": "Atlas 전역 스타일 변수",
-    "pl": "Globalne zmienne stylu Atlas",
-    "ja": "Atlas グローバルスタイル変数"
+  "i18n.tesseraGlobalStyleVariables": {
+    "default": "tessera global style Variables",
+    "fr": "Variables de style global tessera",
+    "it": "Variabili di stile globale tessera",
+    "zh": "tessera 全局样式变量",
+    "de": "Globale tessera-Stilvariablen",
+    "es": "Variables de estilo global de tessera",
+    "nl": "tessera globale stijlvariabelen",
+    "pt": "Variáveis de estilo global tessera",
+    "pt-BR": "Variáveis de estilo global tessera",
+    "sv": "tessera globala stilvariabler",
+    "es-MX": "Variables de estilo global de tessera",
+    "es-419": "Variables de estilo global de tessera",
+    "da": "tessera globale stilvariable",
+    "no": "tessera globale stilvariabler",
+    "ko": "tessera 전역 스타일 변수",
+    "pl": "Globalne zmienne stylu tessera",
+    "ja": "tessera グローバルスタイル変数"
   },
-  "i18n.AtlasNeutralColors": {
+  "i18n.tesseraNeutralColors": {
     "default": "Neutral Colors",
     "fr": "Couleurs neutres",
     "it": "Colori neutri",
@@ -6060,7 +6060,7 @@
     "pl": "Kolory neutralne",
     "ja": "ニュートラルカラー"
   },
-  "i18n.AtlasAccentColors": {
+  "i18n.tesseraAccentColors": {
     "default": "Accent Colors",
     "fr": "Couleurs d'accentuation",
     "it": "Colori d'accento",
@@ -6079,7 +6079,7 @@
     "pl": "Kolory akcentujące",
     "ja": "アクセントカラー"
   },
-  "i18n.AtlasSemanticColors": {
+  "i18n.tesseraSemanticColors": {
     "default": "Semantic Colors",
     "fr": "Couleurs sémantiques",
     "it": "Colori semantici",
@@ -6098,7 +6098,7 @@
     "pl": "Kolory semantyczne",
     "ja": "セマンティックカラー"
   },
-  "i18n.AtlasTypographySizes": {
+  "i18n.tesseraTypographySizes": {
     "default": "Typography — Sizes",
     "fr": "Typographie — Tailles",
     "it": "Tipografia — Dimensioni",
@@ -6117,7 +6117,7 @@
     "pl": "Typografia — Rozmiary",
     "ja": "タイポグラフィ — サイズ"
   },
-  "i18n.AtlasSpacing": {
+  "i18n.tesseraSpacing": {
     "default": "Spacing",
     "fr": "Espacement",
     "it": "Spaziatura",
@@ -6136,7 +6136,7 @@
     "pl": "Odstępy",
     "ja": "スペーシング"
   },
-  "i18n.AtlasRadius": {
+  "i18n.tesseraRadius": {
     "default": "Radius",
     "fr": "Rayon",
     "it": "Raggio",
@@ -6155,7 +6155,7 @@
     "pl": "Promień",
     "ja": "半径"
   },
-  "i18n.AtlasShadow": {
+  "i18n.tesseraShadow": {
     "default": "Shadow",
     "fr": "Ombre",
     "it": "Ombra",
@@ -6174,7 +6174,7 @@
     "pl": "Cień",
     "ja": "シャドウ"
   },
-  "i18n.AtlasBorders": {
+  "i18n.tesseraBorders": {
     "default": "Borders",
     "fr": "Bordures",
     "it": "Bordi",
@@ -6193,7 +6193,7 @@
     "pl": "Obramowania",
     "ja": "ボーダー"
   },
-  "i18n.AtlasMotion": {
+  "i18n.tesseraMotion": {
     "default": "Motion",
     "fr": "Mouvement",
     "it": "Movimento",
@@ -6212,7 +6212,7 @@
     "pl": "Ruch",
     "ja": "モーション"
   },
-  "i18n.AtlasColorNeutral0": {
+  "i18n.tesseraColorNeutral0": {
     "default": "Neutral 0",
     "fr": "Neutre 0",
     "it": "Neutro 0",
@@ -6231,7 +6231,7 @@
     "pl": "Neutralny 0",
     "ja": "ニュートラル 0"
   },
-  "i18n.AtlasColorNeutral50": {
+  "i18n.tesseraColorNeutral50": {
     "default": "Neutral 50",
     "fr": "Neutre 50",
     "it": "Neutro 50",
@@ -6250,7 +6250,7 @@
     "pl": "Neutralny 50",
     "ja": "ニュートラル 50"
   },
-  "i18n.AtlasColorNeutral100": {
+  "i18n.tesseraColorNeutral100": {
     "default": "Neutral 100",
     "fr": "Neutre 100",
     "it": "Neutro 100",
@@ -6269,7 +6269,7 @@
     "pl": "Neutralny 100",
     "ja": "ニュートラル 100"
   },
-  "i18n.AtlasColorNeutral200": {
+  "i18n.tesseraColorNeutral200": {
     "default": "Neutral 200",
     "fr": "Neutre 200",
     "it": "Neutro 200",
@@ -6288,7 +6288,7 @@
     "pl": "Neutralny 200",
     "ja": "ニュートラル 200"
   },
-  "i18n.AtlasColorNeutral300": {
+  "i18n.tesseraColorNeutral300": {
     "default": "Neutral 300",
     "fr": "Neutre 300",
     "it": "Neutro 300",
@@ -6307,7 +6307,7 @@
     "pl": "Neutralny 300",
     "ja": "ニュートラル 300"
   },
-  "i18n.AtlasColorNeutral400": {
+  "i18n.tesseraColorNeutral400": {
     "default": "Neutral 400",
     "fr": "Neutre 400",
     "it": "Neutro 400",
@@ -6326,7 +6326,7 @@
     "pl": "Neutralny 400",
     "ja": "ニュートラル 400"
   },
-  "i18n.AtlasColorNeutral500": {
+  "i18n.tesseraColorNeutral500": {
     "default": "Neutral 500",
     "fr": "Neutre 500",
     "it": "Neutro 500",
@@ -6345,7 +6345,7 @@
     "pl": "Neutralny 500",
     "ja": "ニュートラル 500"
   },
-  "i18n.AtlasColorNeutral600": {
+  "i18n.tesseraColorNeutral600": {
     "default": "Neutral 600",
     "fr": "Neutre 600",
     "it": "Neutro 600",
@@ -6364,7 +6364,7 @@
     "pl": "Neutralny 600",
     "ja": "ニュートラル 600"
   },
-  "i18n.AtlasColorNeutral700": {
+  "i18n.tesseraColorNeutral700": {
     "default": "Neutral 700",
     "fr": "Neutre 700",
     "it": "Neutro 700",
@@ -6383,7 +6383,7 @@
     "pl": "Neutralny 700",
     "ja": "ニュートラル 700"
   },
-  "i18n.AtlasColorNeutral800": {
+  "i18n.tesseraColorNeutral800": {
     "default": "Neutral 800",
     "fr": "Neutre 800",
     "it": "Neutro 800",
@@ -6402,7 +6402,7 @@
     "pl": "Neutralny 800",
     "ja": "ニュートラル 800"
   },
-  "i18n.AtlasColorNeutral900": {
+  "i18n.tesseraColorNeutral900": {
     "default": "Neutral 900",
     "fr": "Neutre 900",
     "it": "Neutro 900",
@@ -6421,7 +6421,7 @@
     "pl": "Neutralny 900",
     "ja": "ニュートラル 900"
   },
-  "i18n.AtlasColorAccent100": {
+  "i18n.tesseraColorAccent100": {
     "default": "Accent 100",
     "fr": "Accent 100",
     "it": "Accento 100",
@@ -6440,7 +6440,7 @@
     "pl": "Akcent 100",
     "ja": "アクセント 100"
   },
-  "i18n.AtlasColorAccent200": {
+  "i18n.tesseraColorAccent200": {
     "default": "Accent 200",
     "fr": "Accent 200",
     "it": "Accento 200",
@@ -6459,7 +6459,7 @@
     "pl": "Akcent 200",
     "ja": "アクセント 200"
   },
-  "i18n.AtlasColorAccent300": {
+  "i18n.tesseraColorAccent300": {
     "default": "Accent 300",
     "fr": "Accent 300",
     "it": "Accento 300",
@@ -6478,7 +6478,7 @@
     "pl": "Akcent 300",
     "ja": "アクセント 300"
   },
-  "i18n.AtlasColorAccent500": {
+  "i18n.tesseraColorAccent500": {
     "default": "Accent 500",
     "fr": "Accent 500",
     "it": "Accento 500",
@@ -6497,7 +6497,7 @@
     "pl": "Akcent 500",
     "ja": "アクセント 500"
   },
-  "i18n.AtlasColorAccent700": {
+  "i18n.tesseraColorAccent700": {
     "default": "Accent 700",
     "fr": "Accent 700",
     "it": "Accento 700",
@@ -6516,7 +6516,7 @@
     "pl": "Akcent 700",
     "ja": "アクセント 700"
   },
-  "i18n.AtlasColorSuccess": {
+  "i18n.tesseraColorSuccess": {
     "default": "Success",
     "fr": "Succès",
     "it": "Successo",
@@ -6535,7 +6535,7 @@
     "pl": "Sukces",
     "ja": "成功"
   },
-  "i18n.AtlasColorSuccessBg": {
+  "i18n.tesseraColorSuccessBg": {
     "default": "Success Background",
     "fr": "Fond succès",
     "it": "Sfondo successo",
@@ -6554,7 +6554,7 @@
     "pl": "Tło sukcesu",
     "ja": "成功の背景"
   },
-  "i18n.AtlasColorWarning": {
+  "i18n.tesseraColorWarning": {
     "default": "Warning",
     "fr": "Avertissement",
     "it": "Avviso",
@@ -6573,7 +6573,7 @@
     "pl": "Ostrzeżenie",
     "ja": "警告"
   },
-  "i18n.AtlasColorWarningBg": {
+  "i18n.tesseraColorWarningBg": {
     "default": "Warning Background",
     "fr": "Fond d'avertissement",
     "it": "Sfondo avviso",
@@ -6592,7 +6592,7 @@
     "pl": "Tło ostrzeżenia",
     "ja": "警告の背景"
   },
-  "i18n.AtlasColorError": {
+  "i18n.tesseraColorError": {
     "default": "Error",
     "fr": "Erreur",
     "it": "Errore",
@@ -6611,7 +6611,7 @@
     "pl": "Błąd",
     "ja": "エラー"
   },
-  "i18n.AtlasColorErrorBg": {
+  "i18n.tesseraColorErrorBg": {
     "default": "Error Background",
     "fr": "Fond d'erreur",
     "it": "Sfondo errore",
@@ -6630,7 +6630,7 @@
     "pl": "Tło błędu",
     "ja": "エラーの背景"
   },
-  "i18n.AtlasColorInfo": {
+  "i18n.tesseraColorInfo": {
     "default": "Info",
     "fr": "Info",
     "it": "Info",
@@ -6649,7 +6649,7 @@
     "pl": "Info",
     "ja": "情報"
   },
-  "i18n.AtlasColorInfoBg": {
+  "i18n.tesseraColorInfoBg": {
     "default": "Info Background",
     "fr": "Fond d'info",
     "it": "Sfondo info",
@@ -6668,7 +6668,26 @@
     "pl": "Tło info",
     "ja": "情報の背景"
   },
-  "i18n.AtlasFontSizeDisplayXl": {
+  "i18n.tesseraFontBase": {
+    "default": "Base Font Size",
+    "fr": "Taille de police de base",
+    "it": "Dimensione carattere base",
+    "zh": "基础字体大小",
+    "de": "Basis-Schriftgröße",
+    "es": "Tamaño de fuente base",
+    "nl": "Basislettergrootte",
+    "pt": "Tamanho de fonte base",
+    "pt-BR": "Tamanho de fonte base",
+    "sv": "Grundteckenstorlek",
+    "es-MX": "Tamaño de fuente base",
+    "es-419": "Tamaño de fuente base",
+    "da": "Grundskriftstørrelse",
+    "no": "Grunnleggende skriftstørrelse",
+    "ko": "기본 글꼴 크기",
+    "pl": "Podstawowy rozmiar czcionki",
+    "ja": "基本フォントサイズ"
+  },
+  "i18n.tesseraFontSizeDisplayXl": {
     "default": "Display XL",
     "fr": "Affichage XL",
     "it": "Display XL",
@@ -6687,7 +6706,7 @@
     "pl": "Nagłówek XL",
     "ja": "表示 XL"
   },
-  "i18n.AtlasFontSizeDisplayL": {
+  "i18n.tesseraFontSizeDisplayL": {
     "default": "Display L",
     "fr": "Affichage L",
     "it": "Display L",
@@ -6706,7 +6725,7 @@
     "pl": "Nagłówek L",
     "ja": "表示 L"
   },
-  "i18n.AtlasFontSizeH1": {
+  "i18n.tesseraFontSizeH1": {
     "default": "Heading 1",
     "fr": "Titre 1",
     "it": "Intestazione 1",
@@ -6725,7 +6744,7 @@
     "pl": "Nagłówek 1",
     "ja": "見出し 1"
   },
-  "i18n.AtlasFontSizeH2": {
+  "i18n.tesseraFontSizeH2": {
     "default": "Heading 2",
     "fr": "Titre 2",
     "it": "Intestazione 2",
@@ -6744,7 +6763,7 @@
     "pl": "Nagłówek 2",
     "ja": "見出し 2"
   },
-  "i18n.AtlasFontSizeH3": {
+  "i18n.tesseraFontSizeH3": {
     "default": "Heading 3",
     "fr": "Titre 3",
     "it": "Intestazione 3",
@@ -6763,7 +6782,7 @@
     "pl": "Nagłówek 3",
     "ja": "見出し 3"
   },
-  "i18n.AtlasFontSizeH4": {
+  "i18n.tesseraFontSizeH4": {
     "default": "Heading 4",
     "fr": "Titre 4",
     "it": "Intestazione 4",
@@ -6782,7 +6801,7 @@
     "pl": "Nagłówek 4",
     "ja": "見出し 4"
   },
-  "i18n.AtlasFontSizeBodyL": {
+  "i18n.tesseraFontSizeBodyL": {
     "default": "Body L",
     "fr": "Corps L",
     "it": "Corpo L",
@@ -6801,7 +6820,7 @@
     "pl": "Treść L",
     "ja": "本文 L"
   },
-  "i18n.AtlasFontSizeBody": {
+  "i18n.tesseraFontSizeBody": {
     "default": "Body",
     "fr": "Corps",
     "it": "Corpo",
@@ -6820,7 +6839,7 @@
     "pl": "Treść",
     "ja": "本文"
   },
-  "i18n.AtlasFontSizeBodyS": {
+  "i18n.tesseraFontSizeBodyS": {
     "default": "Body S",
     "fr": "Corps S",
     "it": "Corpo S",
@@ -6839,7 +6858,7 @@
     "pl": "Treść S",
     "ja": "本文 S"
   },
-  "i18n.AtlasFontSizeCaption": {
+  "i18n.tesseraFontSizeCaption": {
     "default": "Caption",
     "fr": "Légende",
     "it": "Didascalia",
@@ -6858,7 +6877,7 @@
     "pl": "Podpis",
     "ja": "キャプション"
   },
-  "i18n.AtlasFontSizeOverline": {
+  "i18n.tesseraFontSizeOverline": {
     "default": "Overline",
     "fr": "Ligne supérieure",
     "it": "Sopralinea",
@@ -6877,197 +6896,197 @@
     "pl": "Nadkreślenie",
     "ja": "オーバーライン"
   },
-  "i18n.AtlasSpace1": {
-    "default": "Space 1 (4px)",
-    "fr": "Espace 1 (4px)",
-    "it": "Spazio 1 (4px)",
-    "zh": "间距 1 (4px)",
-    "de": "Abstand 1 (4px)",
-    "es": "Espacio 1 (4px)",
-    "nl": "Ruimte 1 (4px)",
-    "pt": "Espaço 1 (4px)",
-    "pt-BR": "Espaço 1 (4px)",
-    "sv": "Mellanrum 1 (4px)",
-    "es-MX": "Espacio 1 (4px)",
-    "es-419": "Espacio 1 (4px)",
-    "da": "Afstand 1 (4px)",
-    "no": "Mellomrom 1 (4px)",
-    "ko": "간격 1 (4px)",
-    "pl": "Odstęp 1 (4px)",
-    "ja": "スペース 1 (4px)"
+  "i18n.tesseraSpace1": {
+    "default": "Space 1 (0.25rem)",
+    "fr": "Espace 1 (0.25rem)",
+    "it": "Spazio 1 (0.25rem)",
+    "zh": "间距 1 (0.25rem)",
+    "de": "Abstand 1 (0.25rem)",
+    "es": "Espacio 1 (0.25rem)",
+    "nl": "Ruimte 1 (0.25rem)",
+    "pt": "Espaço 1 (0.25rem)",
+    "pt-BR": "Espaço 1 (0.25rem)",
+    "sv": "Mellanrum 1 (0.25rem)",
+    "es-MX": "Espacio 1 (0.25rem)",
+    "es-419": "Espacio 1 (0.25rem)",
+    "da": "Afstand 1 (0.25rem)",
+    "no": "Mellomrom 1 (0.25rem)",
+    "ko": "간격 1 (0.25rem)",
+    "pl": "Odstęp 1 (0.25rem)",
+    "ja": "スペース 1 (0.25rem)"
   },
-  "i18n.AtlasSpace2": {
-    "default": "Space 2 (8px)",
-    "fr": "Espace 2 (8px)",
-    "it": "Spazio 2 (8px)",
-    "zh": "间距 2 (8px)",
-    "de": "Abstand 2 (8px)",
-    "es": "Espacio 2 (8px)",
-    "nl": "Ruimte 2 (8px)",
-    "pt": "Espaço 2 (8px)",
-    "pt-BR": "Espaço 2 (8px)",
-    "sv": "Mellanrum 2 (8px)",
-    "es-MX": "Espacio 2 (8px)",
-    "es-419": "Espacio 2 (8px)",
-    "da": "Afstand 2 (8px)",
-    "no": "Mellomrom 2 (8px)",
-    "ko": "간격 2 (8px)",
-    "pl": "Odstęp 2 (8px)",
-    "ja": "スペース 2 (8px)"
+  "i18n.tesseraSpace2": {
+    "default": "Space 2 (0.5rem)",
+    "fr": "Espace 2 (0.5rem)",
+    "it": "Spazio 2 (0.5rem)",
+    "zh": "间距 2 (0.5rem)",
+    "de": "Abstand 2 (0.5rem)",
+    "es": "Espacio 2 (0.5rem)",
+    "nl": "Ruimte 2 (0.5rem)",
+    "pt": "Espaço 2 (0.5rem)",
+    "pt-BR": "Espaço 2 (0.5rem)",
+    "sv": "Mellanrum 2 (0.5rem)",
+    "es-MX": "Espacio 2 (0.5rem)",
+    "es-419": "Espacio 2 (0.5rem)",
+    "da": "Afstand 2 (0.5rem)",
+    "no": "Mellomrom 2 (0.5rem)",
+    "ko": "간격 2 (0.5rem)",
+    "pl": "Odstęp 2 (0.5rem)",
+    "ja": "スペース 2 (0.5rem)"
   },
-  "i18n.AtlasSpace3": {
-    "default": "Space 3 (12px)",
-    "fr": "Espace 3 (12px)",
-    "it": "Spazio 3 (12px)",
-    "zh": "间距 3 (12px)",
-    "de": "Abstand 3 (12px)",
-    "es": "Espacio 3 (12px)",
-    "nl": "Ruimte 3 (12px)",
-    "pt": "Espaço 3 (12px)",
-    "pt-BR": "Espaço 3 (12px)",
-    "sv": "Mellanrum 3 (12px)",
-    "es-MX": "Espacio 3 (12px)",
-    "es-419": "Espacio 3 (12px)",
-    "da": "Afstand 3 (12px)",
-    "no": "Mellomrom 3 (12px)",
-    "ko": "간격 3 (12px)",
-    "pl": "Odstęp 3 (12px)",
-    "ja": "スペース 3 (12px)"
+  "i18n.tesseraSpace3": {
+    "default": "Space 3 (0.75rem)",
+    "fr": "Espace 3 (0.75rem)",
+    "it": "Spazio 3 (0.75rem)",
+    "zh": "间距 3 (0.75rem)",
+    "de": "Abstand 3 (0.75rem)",
+    "es": "Espacio 3 (0.75rem)",
+    "nl": "Ruimte 3 (0.75rem)",
+    "pt": "Espaço 3 (0.75rem)",
+    "pt-BR": "Espaço 3 (0.75rem)",
+    "sv": "Mellanrum 3 (0.75rem)",
+    "es-MX": "Espacio 3 (0.75rem)",
+    "es-419": "Espacio 3 (0.75rem)",
+    "da": "Afstand 3 (0.75rem)",
+    "no": "Mellomrom 3 (0.75rem)",
+    "ko": "간격 3 (0.75rem)",
+    "pl": "Odstęp 3 (0.75rem)",
+    "ja": "スペース 3 (0.75rem)"
   },
-  "i18n.AtlasSpace4": {
-    "default": "Space 4 (16px)",
-    "fr": "Espace 4 (16px)",
-    "it": "Spazio 4 (16px)",
-    "zh": "间距 4 (16px)",
-    "de": "Abstand 4 (16px)",
-    "es": "Espacio 4 (16px)",
-    "nl": "Ruimte 4 (16px)",
-    "pt": "Espaço 4 (16px)",
-    "pt-BR": "Espaço 4 (16px)",
-    "sv": "Mellanrum 4 (16px)",
-    "es-MX": "Espacio 4 (16px)",
-    "es-419": "Espacio 4 (16px)",
-    "da": "Afstand 4 (16px)",
-    "no": "Mellomrom 4 (16px)",
-    "ko": "간격 4 (16px)",
-    "pl": "Odstęp 4 (16px)",
-    "ja": "スペース 4 (16px)"
+  "i18n.tesseraSpace4": {
+    "default": "Space 4 (1rem)",
+    "fr": "Espace 4 (1rem)",
+    "it": "Spazio 4 (1rem)",
+    "zh": "间距 4 (1rem)",
+    "de": "Abstand 4 (1rem)",
+    "es": "Espacio 4 (1rem)",
+    "nl": "Ruimte 4 (1rem)",
+    "pt": "Espaço 4 (1rem)",
+    "pt-BR": "Espaço 4 (1rem)",
+    "sv": "Mellanrum 4 (1rem)",
+    "es-MX": "Espacio 4 (1rem)",
+    "es-419": "Espacio 4 (1rem)",
+    "da": "Afstand 4 (1rem)",
+    "no": "Mellomrom 4 (1rem)",
+    "ko": "간격 4 (1rem)",
+    "pl": "Odstęp 4 (1rem)",
+    "ja": "スペース 4 (1rem)"
   },
-  "i18n.AtlasSpace5": {
-    "default": "Space 5 (24px)",
-    "fr": "Espace 5 (24px)",
-    "it": "Spazio 5 (24px)",
-    "zh": "间距 5 (24px)",
-    "de": "Abstand 5 (24px)",
-    "es": "Espacio 5 (24px)",
-    "nl": "Ruimte 5 (24px)",
-    "pt": "Espaço 5 (24px)",
-    "pt-BR": "Espaço 5 (24px)",
-    "sv": "Mellanrum 5 (24px)",
-    "es-MX": "Espacio 5 (24px)",
-    "es-419": "Espacio 5 (24px)",
-    "da": "Afstand 5 (24px)",
-    "no": "Mellomrom 5 (24px)",
-    "ko": "간격 5 (24px)",
-    "pl": "Odstęp 5 (24px)",
-    "ja": "スペース 5 (24px)"
+  "i18n.tesseraSpace5": {
+    "default": "Space 5 (1.5rem)",
+    "fr": "Espace 5 (1.5rem)",
+    "it": "Spazio 5 (1.5rem)",
+    "zh": "间距 5 (1.5rem)",
+    "de": "Abstand 5 (1.5rem)",
+    "es": "Espacio 5 (1.5rem)",
+    "nl": "Ruimte 5 (1.5rem)",
+    "pt": "Espaço 5 (1.5rem)",
+    "pt-BR": "Espaço 5 (1.5rem)",
+    "sv": "Mellanrum 5 (1.5rem)",
+    "es-MX": "Espacio 5 (1.5rem)",
+    "es-419": "Espacio 5 (1.5rem)",
+    "da": "Afstand 5 (1.5rem)",
+    "no": "Mellomrom 5 (1.5rem)",
+    "ko": "간격 5 (1.5rem)",
+    "pl": "Odstęp 5 (1.5rem)",
+    "ja": "スペース 5 (1.5rem)"
   },
-  "i18n.AtlasSpace6": {
-    "default": "Space 6 (32px)",
-    "fr": "Espace 6 (32px)",
-    "it": "Spazio 6 (32px)",
-    "zh": "间距 6 (32px)",
-    "de": "Abstand 6 (32px)",
-    "es": "Espacio 6 (32px)",
-    "nl": "Ruimte 6 (32px)",
-    "pt": "Espaço 6 (32px)",
-    "pt-BR": "Espaço 6 (32px)",
-    "sv": "Mellanrum 6 (32px)",
-    "es-MX": "Espacio 6 (32px)",
-    "es-419": "Espacio 6 (32px)",
-    "da": "Afstand 6 (32px)",
-    "no": "Mellomrom 6 (32px)",
-    "ko": "간격 6 (32px)",
-    "pl": "Odstęp 6 (32px)",
-    "ja": "スペース 6 (32px)"
+  "i18n.tesseraSpace6": {
+    "default": "Space 6 (2rem)",
+    "fr": "Espace 6 (2rem)",
+    "it": "Spazio 6 (2rem)",
+    "zh": "间距 6 (2rem)",
+    "de": "Abstand 6 (2rem)",
+    "es": "Espacio 6 (2rem)",
+    "nl": "Ruimte 6 (2rem)",
+    "pt": "Espaço 6 (2rem)",
+    "pt-BR": "Espaço 6 (2rem)",
+    "sv": "Mellanrum 6 (2rem)",
+    "es-MX": "Espacio 6 (2rem)",
+    "es-419": "Espacio 6 (2rem)",
+    "da": "Afstand 6 (2rem)",
+    "no": "Mellomrom 6 (2rem)",
+    "ko": "간격 6 (2rem)",
+    "pl": "Odstęp 6 (2rem)",
+    "ja": "スペース 6 (2rem)"
   },
-  "i18n.AtlasSpace7": {
-    "default": "Space 7 (48px)",
-    "fr": "Espace 7 (48px)",
-    "it": "Spazio 7 (48px)",
-    "zh": "间距 7 (48px)",
-    "de": "Abstand 7 (48px)",
-    "es": "Espacio 7 (48px)",
-    "nl": "Ruimte 7 (48px)",
-    "pt": "Espaço 7 (48px)",
-    "pt-BR": "Espaço 7 (48px)",
-    "sv": "Mellanrum 7 (48px)",
-    "es-MX": "Espacio 7 (48px)",
-    "es-419": "Espacio 7 (48px)",
-    "da": "Afstand 7 (48px)",
-    "no": "Mellomrom 7 (48px)",
-    "ko": "간격 7 (48px)",
-    "pl": "Odstęp 7 (48px)",
-    "ja": "スペース 7 (48px)"
+  "i18n.tesseraSpace7": {
+    "default": "Space 7 (3rem)",
+    "fr": "Espace 7 (3rem)",
+    "it": "Spazio 7 (3rem)",
+    "zh": "间距 7 (3rem)",
+    "de": "Abstand 7 (3rem)",
+    "es": "Espacio 7 (3rem)",
+    "nl": "Ruimte 7 (3rem)",
+    "pt": "Espaço 7 (3rem)",
+    "pt-BR": "Espaço 7 (3rem)",
+    "sv": "Mellanrum 7 (3rem)",
+    "es-MX": "Espacio 7 (3rem)",
+    "es-419": "Espacio 7 (3rem)",
+    "da": "Afstand 7 (3rem)",
+    "no": "Mellomrom 7 (3rem)",
+    "ko": "간격 7 (3rem)",
+    "pl": "Odstęp 7 (3rem)",
+    "ja": "スペース 7 (3rem)"
   },
-  "i18n.AtlasSpace8": {
-    "default": "Space 8 (64px)",
-    "fr": "Espace 8 (64px)",
-    "it": "Spazio 8 (64px)",
-    "zh": "间距 8 (64px)",
-    "de": "Abstand 8 (64px)",
-    "es": "Espacio 8 (64px)",
-    "nl": "Ruimte 8 (64px)",
-    "pt": "Espaço 8 (64px)",
-    "pt-BR": "Espaço 8 (64px)",
-    "sv": "Mellanrum 8 (64px)",
-    "es-MX": "Espacio 8 (64px)",
-    "es-419": "Espacio 8 (64px)",
-    "da": "Afstand 8 (64px)",
-    "no": "Mellomrom 8 (64px)",
-    "ko": "간격 8 (64px)",
-    "pl": "Odstęp 8 (64px)",
-    "ja": "スペース 8 (64px)"
+  "i18n.tesseraSpace8": {
+    "default": "Space 8 (4rem)",
+    "fr": "Espace 8 (4rem)",
+    "it": "Spazio 8 (4rem)",
+    "zh": "间距 8 (4rem)",
+    "de": "Abstand 8 (4rem)",
+    "es": "Espacio 8 (4rem)",
+    "nl": "Ruimte 8 (4rem)",
+    "pt": "Espaço 8 (4rem)",
+    "pt-BR": "Espaço 8 (4rem)",
+    "sv": "Mellanrum 8 (4rem)",
+    "es-MX": "Espacio 8 (4rem)",
+    "es-419": "Espacio 8 (4rem)",
+    "da": "Afstand 8 (4rem)",
+    "no": "Mellomrom 8 (4rem)",
+    "ko": "간격 8 (4rem)",
+    "pl": "Odstęp 8 (4rem)",
+    "ja": "スペース 8 (4rem)"
   },
-  "i18n.AtlasSpace9": {
-    "default": "Space 9 (96px)",
-    "fr": "Espace 9 (96px)",
-    "it": "Spazio 9 (96px)",
-    "zh": "间距 9 (96px)",
-    "de": "Abstand 9 (96px)",
-    "es": "Espacio 9 (96px)",
-    "nl": "Ruimte 9 (96px)",
-    "pt": "Espaço 9 (96px)",
-    "pt-BR": "Espaço 9 (96px)",
-    "sv": "Mellanrum 9 (96px)",
-    "es-MX": "Espacio 9 (96px)",
-    "es-419": "Espacio 9 (96px)",
-    "da": "Afstand 9 (96px)",
-    "no": "Mellomrom 9 (96px)",
-    "ko": "간격 9 (96px)",
-    "pl": "Odstęp 9 (96px)",
-    "ja": "スペース 9 (96px)"
+  "i18n.tesseraSpace9": {
+    "default": "Space 9 (6rem)",
+    "fr": "Espace 9 (6rem)",
+    "it": "Spazio 9 (6rem)",
+    "zh": "间距 9 (6rem)",
+    "de": "Abstand 9 (6rem)",
+    "es": "Espacio 9 (6rem)",
+    "nl": "Ruimte 9 (6rem)",
+    "pt": "Espaço 9 (6rem)",
+    "pt-BR": "Espaço 9 (6rem)",
+    "sv": "Mellanrum 9 (6rem)",
+    "es-MX": "Espacio 9 (6rem)",
+    "es-419": "Espacio 9 (6rem)",
+    "da": "Afstand 9 (6rem)",
+    "no": "Mellomrom 9 (6rem)",
+    "ko": "간격 9 (6rem)",
+    "pl": "Odstęp 9 (6rem)",
+    "ja": "スペース 9 (6rem)"
   },
-  "i18n.AtlasSpace10": {
-    "default": "Space 10 (128px)",
-    "fr": "Espace 10 (128px)",
-    "it": "Spazio 10 (128px)",
-    "zh": "间距 10 (128px)",
-    "de": "Abstand 10 (128px)",
-    "es": "Espacio 10 (128px)",
-    "nl": "Ruimte 10 (128px)",
-    "pt": "Espaço 10 (128px)",
-    "pt-BR": "Espaço 10 (128px)",
-    "sv": "Mellanrum 10 (128px)",
-    "es-MX": "Espacio 10 (128px)",
-    "es-419": "Espacio 10 (128px)",
-    "da": "Afstand 10 (128px)",
-    "no": "Mellomrom 10 (128px)",
-    "ko": "간격 10 (128px)",
-    "pl": "Odstęp 10 (128px)",
-    "ja": "スペース 10 (128px)"
+  "i18n.tesseraSpace10": {
+    "default": "Space 10 (8rem)",
+    "fr": "Espace 10 (8rem)",
+    "it": "Spazio 10 (8rem)",
+    "zh": "间距 10 (8rem)",
+    "de": "Abstand 10 (8rem)",
+    "es": "Espacio 10 (8rem)",
+    "nl": "Ruimte 10 (8rem)",
+    "pt": "Espaço 10 (8rem)",
+    "pt-BR": "Espaço 10 (8rem)",
+    "sv": "Mellanrum 10 (8rem)",
+    "es-MX": "Espacio 10 (8rem)",
+    "es-419": "Espacio 10 (8rem)",
+    "da": "Afstand 10 (8rem)",
+    "no": "Mellomrom 10 (8rem)",
+    "ko": "간격 10 (8rem)",
+    "pl": "Odstęp 10 (8rem)",
+    "ja": "スペース 10 (8rem)"
   },
-  "i18n.AtlasRadiusSm": {
+  "i18n.tesseraRadiusSm": {
     "default": "Radius SM (2px)",
     "fr": "Rayon SM (2px)",
     "it": "Raggio SM (2px)",
@@ -7086,7 +7105,7 @@
     "pl": "Promień SM (2px)",
     "ja": "半径 SM (2px)"
   },
-  "i18n.AtlasRadiusMd": {
+  "i18n.tesseraRadiusMd": {
     "default": "Radius MD (4px)",
     "fr": "Rayon MD (4px)",
     "it": "Raggio MD (4px)",
@@ -7105,7 +7124,7 @@
     "pl": "Promień MD (4px)",
     "ja": "半径 MD (4px)"
   },
-  "i18n.AtlasRadiusLg": {
+  "i18n.tesseraRadiusLg": {
     "default": "Radius LG (8px)",
     "fr": "Rayon LG (8px)",
     "it": "Raggio LG (8px)",
@@ -7124,7 +7143,7 @@
     "pl": "Promień LG (8px)",
     "ja": "半径 LG (8px)"
   },
-  "i18n.AtlasRadiusXl": {
+  "i18n.tesseraRadiusXl": {
     "default": "Radius XL (16px)",
     "fr": "Rayon XL (16px)",
     "it": "Raggio XL (16px)",
@@ -7143,7 +7162,7 @@
     "pl": "Promień XL (16px)",
     "ja": "半径 XL (16px)"
   },
-  "i18n.AtlasRadiusFull": {
+  "i18n.tesseraRadiusFull": {
     "default": "Radius Full (999px)",
     "fr": "Rayon complet (999px)",
     "it": "Raggio intero (999px)",
@@ -7162,7 +7181,7 @@
     "pl": "Promień pełny (999px)",
     "ja": "半径 フル (999px)"
   },
-  "i18n.AtlasShadow0": {
+  "i18n.tesseraShadow0": {
     "default": "Shadow 0",
     "fr": "Ombre 0",
     "it": "Ombra 0",
@@ -7181,7 +7200,7 @@
     "pl": "Cień 0",
     "ja": "シャドウ 0"
   },
-  "i18n.AtlasShadow1": {
+  "i18n.tesseraShadow1": {
     "default": "Shadow 1 : value max 64 characters",
     "fr": "Ombre 1 : valeur max 64 caractères",
     "it": "Ombra 1: valore max 64 caratteri",
@@ -7200,7 +7219,7 @@
     "pl": "Cień 1: maks. 64 znaki",
     "ja": "シャドウ 1：最大64文字"
   },
-  "i18n.AtlasShadow2": {
+  "i18n.tesseraShadow2": {
     "default": "Shadow 2 : value max 64 characters",
     "fr": "Ombre 2 : valeur max 64 caractères",
     "it": "Ombra 2: valore max 64 caratteri",
@@ -7219,7 +7238,7 @@
     "pl": "Cień 2: maks. 64 znaki",
     "ja": "シャドウ 2：最大64文字"
   },
-  "i18n.AtlasShadow3": {
+  "i18n.tesseraShadow3": {
     "default": "Shadow 3 : value max 64 characters",
     "fr": "Ombre 3 : valeur max 64 caractères",
     "it": "Ombra 3: valore max 64 caratteri",
@@ -7238,7 +7257,7 @@
     "pl": "Cień 3: maks. 64 znaki",
     "ja": "シャドウ 3：最大64文字"
   },
-  "i18n.AtlasShadow4": {
+  "i18n.tesseraShadow4": {
     "default": "Shadow 4 : value max 64 characters",
     "fr": "Ombre 4 : valeur max 64 caractères",
     "it": "Ombra 4: valore max 64 caratteri",
@@ -7257,7 +7276,7 @@
     "pl": "Cień 4: maks. 64 znaki",
     "ja": "シャドウ 4：最大64文字"
   },
-  "i18n.AtlasBorderHairline": {
+  "i18n.tesseraBorderHairline": {
     "default": "Border Hairline (0.5px)",
     "fr": "Bordure trait fin (0.5px)",
     "it": "Bordo sottilissimo (0.5px)",
@@ -7276,7 +7295,7 @@
     "pl": "Włoskowate obramowanie (0.5px)",
     "ja": "ヘアラインボーダー (0.5px)"
   },
-  "i18n.AtlasBorder1": {
+  "i18n.tesseraBorder1": {
     "default": "Border 1 (1px)",
     "fr": "Bordure 1 (1px)",
     "it": "Bordo 1 (1px)",
@@ -7295,7 +7314,7 @@
     "pl": "Obramowanie 1 (1px)",
     "ja": "ボーダー 1 (1px)"
   },
-  "i18n.AtlasBorder2": {
+  "i18n.tesseraBorder2": {
     "default": "Border 2 (2px)",
     "fr": "Bordure 2 (2px)",
     "it": "Bordo 2 (2px)",
@@ -7314,7 +7333,7 @@
     "pl": "Obramowanie 2 (2px)",
     "ja": "ボーダー 2 (2px)"
   },
-  "i18n.AtlasEase": {
+  "i18n.tesseraEase": {
     "default": "Easing Curve",
     "fr": "Courbe d'atténuation",
     "it": "Curva di attenuazione",
