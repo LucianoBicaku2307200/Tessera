@@ -3689,7 +3689,7 @@
     ]
   },
   {
-    "name": "i18n.tesseraGlobalStyleVariables",
+    "name": "i18n.tesseraColorPalette",
     "settings": [
       {
         "type": "heading",
@@ -3846,17 +3846,15 @@
         "label": "i18n.tesseraColorInfoBg",
         "id": "tessera-color-info-bg",
         "force_reload": true
-      },
+      }
+    ]
+  },
+  {
+    "name": "i18n.tesseraTypography",
+    "settings": [
       {
         "type": "heading",
-        "content": "i18n.tesseraTypographySizes"
-      },
-      {
-        "type": "text",
-        "label": "i18n.tesseraFontBase",
-        "id": "tessera-font-base",
-        "default": "16px",
-        "force_reload": true
+        "content": "i18n.tesseraFontBase"
       },
       {
         "type": "text",
@@ -3874,10 +3872,14 @@
       },
       {
         "type": "text",
-        "label": "i18n.tesseraFontSizeDisplayXl",
-        "id": "tessera-font-size-display-xl",
-        "default": "6rem",
+        "label": "i18n.tesseraFontBase",
+        "id": "tessera-font-base",
+        "default": "16px",
         "force_reload": true
+      },
+      {
+        "type": "heading",
+        "content": "i18n.tesseraFontSizeDisplayXl"
       },
       {
         "type": "text",
@@ -3895,10 +3897,14 @@
       },
       {
         "type": "text",
-        "label": "i18n.tesseraFontSizeDisplayL",
-        "id": "tessera-font-size-display-l",
-        "default": "4.5rem",
+        "label": "i18n.tesseraFontSizeDisplayXl",
+        "id": "tessera-font-size-display-xl",
+        "default": "6rem",
         "force_reload": true
+      },
+      {
+        "type": "heading",
+        "content": "i18n.tesseraFontSizeDisplayL"
       },
       {
         "type": "text",
@@ -3916,10 +3922,14 @@
       },
       {
         "type": "text",
-        "label": "i18n.tesseraFontSizeH1",
-        "id": "tessera-font-size-h1",
-        "default": "3rem",
+        "label": "i18n.tesseraFontSizeDisplayL",
+        "id": "tessera-font-size-display-l",
+        "default": "4.5rem",
         "force_reload": true
+      },
+      {
+        "type": "heading",
+        "content": "i18n.tesseraFontSizeH1"
       },
       {
         "type": "text",
@@ -3937,10 +3947,14 @@
       },
       {
         "type": "text",
-        "label": "i18n.tesseraFontSizeH2",
-        "id": "tessera-font-size-h2",
-        "default": "2.25rem",
+        "label": "i18n.tesseraFontSizeH1",
+        "id": "tessera-font-size-h1",
+        "default": "3rem",
         "force_reload": true
+      },
+      {
+        "type": "heading",
+        "content": "i18n.tesseraFontSizeH2"
       },
       {
         "type": "text",
@@ -3958,10 +3972,14 @@
       },
       {
         "type": "text",
-        "label": "i18n.tesseraFontSizeH3",
-        "id": "tessera-font-size-h3",
-        "default": "1.625rem",
+        "label": "i18n.tesseraFontSizeH2",
+        "id": "tessera-font-size-h2",
+        "default": "2.25rem",
         "force_reload": true
+      },
+      {
+        "type": "heading",
+        "content": "i18n.tesseraFontSizeH3"
       },
       {
         "type": "text",
@@ -3979,10 +3997,14 @@
       },
       {
         "type": "text",
-        "label": "i18n.tesseraFontSizeH4",
-        "id": "tessera-font-size-h4",
-        "default": "1.25rem",
+        "label": "i18n.tesseraFontSizeH3",
+        "id": "tessera-font-size-h3",
+        "default": "1.625rem",
         "force_reload": true
+      },
+      {
+        "type": "heading",
+        "content": "i18n.tesseraFontSizeH4"
       },
       {
         "type": "text",
@@ -4000,10 +4022,14 @@
       },
       {
         "type": "text",
-        "label": "i18n.tesseraFontSizeBodyL",
-        "id": "tessera-font-size-body-l",
-        "default": "1.125rem",
+        "label": "i18n.tesseraFontSizeH4",
+        "id": "tessera-font-size-h4",
+        "default": "1.25rem",
         "force_reload": true
+      },
+      {
+        "type": "heading",
+        "content": "i18n.tesseraFontSizeBodyL"
       },
       {
         "type": "text",
@@ -4021,10 +4047,14 @@
       },
       {
         "type": "text",
-        "label": "i18n.tesseraFontSizeBody",
-        "id": "tessera-font-size-body",
-        "default": "0.9375rem",
+        "label": "i18n.tesseraFontSizeBodyL",
+        "id": "tessera-font-size-body-l",
+        "default": "1.125rem",
         "force_reload": true
+      },
+      {
+        "type": "heading",
+        "content": "i18n.tesseraFontSizeBody"
       },
       {
         "type": "text",
@@ -4042,10 +4072,14 @@
       },
       {
         "type": "text",
-        "label": "i18n.tesseraFontSizeBodyS",
-        "id": "tessera-font-size-body-s",
-        "default": "0.8125rem",
+        "label": "i18n.tesseraFontSizeBody",
+        "id": "tessera-font-size-body",
+        "default": "0.9375rem",
         "force_reload": true
+      },
+      {
+        "type": "heading",
+        "content": "i18n.tesseraFontSizeBodyS"
       },
       {
         "type": "text",
@@ -4063,10 +4097,14 @@
       },
       {
         "type": "text",
-        "label": "i18n.tesseraFontSizeCaption",
-        "id": "tessera-font-size-caption",
-        "default": "0.75rem",
+        "label": "i18n.tesseraFontSizeBodyS",
+        "id": "tessera-font-size-body-s",
+        "default": "0.8125rem",
         "force_reload": true
+      },
+      {
+        "type": "heading",
+        "content": "i18n.tesseraFontSizeCaption"
       },
       {
         "type": "text",
@@ -4084,10 +4122,14 @@
       },
       {
         "type": "text",
-        "label": "i18n.tesseraFontSizeOverline",
-        "id": "tessera-font-size-overline",
-        "default": "0.6875rem",
+        "label": "i18n.tesseraFontSizeCaption",
+        "id": "tessera-font-size-caption",
+        "default": "0.75rem",
         "force_reload": true
+      },
+      {
+        "type": "heading",
+        "content": "i18n.tesseraFontSizeOverline"
       },
       {
         "type": "text",
@@ -4104,15 +4146,20 @@
         "force_reload": true
       },
       {
-        "type": "heading",
-        "content": "i18n.tesseraSpacing"
-      },
-      {
         "type": "text",
-        "label": "i18n.tesseraSpace1",
-        "id": "tessera-space-1",
-        "default": "0.25rem",
+        "label": "i18n.tesseraFontSizeOverline",
+        "id": "tessera-font-size-overline",
+        "default": "0.6875rem",
         "force_reload": true
+      }
+    ]
+  },
+  {
+    "name": "i18n.tesseraSpacing",
+    "settings": [
+      {
+        "type": "heading",
+        "content": "i18n.tesseraSpace1"
       },
       {
         "type": "text",
@@ -4130,10 +4177,14 @@
       },
       {
         "type": "text",
-        "label": "i18n.tesseraSpace2",
-        "id": "tessera-space-2",
-        "default": "0.5rem",
+        "label": "i18n.tesseraSpace1",
+        "id": "tessera-space-1",
+        "default": "0.25rem",
         "force_reload": true
+      },
+      {
+        "type": "heading",
+        "content": "i18n.tesseraSpace2"
       },
       {
         "type": "text",
@@ -4151,10 +4202,14 @@
       },
       {
         "type": "text",
-        "label": "i18n.tesseraSpace3",
-        "id": "tessera-space-3",
-        "default": "0.75rem",
+        "label": "i18n.tesseraSpace2",
+        "id": "tessera-space-2",
+        "default": "0.5rem",
         "force_reload": true
+      },
+      {
+        "type": "heading",
+        "content": "i18n.tesseraSpace3"
       },
       {
         "type": "text",
@@ -4172,10 +4227,14 @@
       },
       {
         "type": "text",
-        "label": "i18n.tesseraSpace4",
-        "id": "tessera-space-4",
-        "default": "1rem",
+        "label": "i18n.tesseraSpace3",
+        "id": "tessera-space-3",
+        "default": "0.75rem",
         "force_reload": true
+      },
+      {
+        "type": "heading",
+        "content": "i18n.tesseraSpace4"
       },
       {
         "type": "text",
@@ -4193,10 +4252,14 @@
       },
       {
         "type": "text",
-        "label": "i18n.tesseraSpace5",
-        "id": "tessera-space-5",
-        "default": "1.5rem",
+        "label": "i18n.tesseraSpace4",
+        "id": "tessera-space-4",
+        "default": "1rem",
         "force_reload": true
+      },
+      {
+        "type": "heading",
+        "content": "i18n.tesseraSpace5"
       },
       {
         "type": "text",
@@ -4214,10 +4277,14 @@
       },
       {
         "type": "text",
-        "label": "i18n.tesseraSpace6",
-        "id": "tessera-space-6",
-        "default": "2rem",
+        "label": "i18n.tesseraSpace5",
+        "id": "tessera-space-5",
+        "default": "1.5rem",
         "force_reload": true
+      },
+      {
+        "type": "heading",
+        "content": "i18n.tesseraSpace6"
       },
       {
         "type": "text",
@@ -4235,10 +4302,14 @@
       },
       {
         "type": "text",
-        "label": "i18n.tesseraSpace7",
-        "id": "tessera-space-7",
-        "default": "3rem",
+        "label": "i18n.tesseraSpace6",
+        "id": "tessera-space-6",
+        "default": "2rem",
         "force_reload": true
+      },
+      {
+        "type": "heading",
+        "content": "i18n.tesseraSpace7"
       },
       {
         "type": "text",
@@ -4256,10 +4327,14 @@
       },
       {
         "type": "text",
-        "label": "i18n.tesseraSpace8",
-        "id": "tessera-space-8",
-        "default": "4rem",
+        "label": "i18n.tesseraSpace7",
+        "id": "tessera-space-7",
+        "default": "3rem",
         "force_reload": true
+      },
+      {
+        "type": "heading",
+        "content": "i18n.tesseraSpace8"
       },
       {
         "type": "text",
@@ -4277,10 +4352,14 @@
       },
       {
         "type": "text",
-        "label": "i18n.tesseraSpace9",
-        "id": "tessera-space-9",
-        "default": "6rem",
+        "label": "i18n.tesseraSpace8",
+        "id": "tessera-space-8",
+        "default": "4rem",
         "force_reload": true
+      },
+      {
+        "type": "heading",
+        "content": "i18n.tesseraSpace9"
       },
       {
         "type": "text",
@@ -4298,10 +4377,14 @@
       },
       {
         "type": "text",
-        "label": "i18n.tesseraSpace10",
-        "id": "tessera-space-10",
-        "default": "8rem",
+        "label": "i18n.tesseraSpace9",
+        "id": "tessera-space-9",
+        "default": "6rem",
         "force_reload": true
+      },
+      {
+        "type": "heading",
+        "content": "i18n.tesseraSpace10"
       },
       {
         "type": "text",
@@ -4317,6 +4400,18 @@
         "default": "6rem",
         "force_reload": true
       },
+      {
+        "type": "text",
+        "label": "i18n.tesseraSpace10",
+        "id": "tessera-space-10",
+        "default": "8rem",
+        "force_reload": true
+      }
+    ]
+  },
+  {
+    "name": "i18n.tesseraGeneralConfig",
+    "settings": [
       {
         "type": "heading",
         "content": "i18n.tesseraRadius"

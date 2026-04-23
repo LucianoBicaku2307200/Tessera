@@ -6022,24 +6022,33 @@
     "pl": "Bolt",
     "ja": "Bolt"
   },
-  "i18n.tesseraGlobalStyleVariables": {
-    "default": "tessera global style Variables",
-    "fr": "Variables de style global tessera",
-    "it": "Variabili di stile globale tessera",
-    "zh": "tessera 全局样式变量",
-    "de": "Globale tessera-Stilvariablen",
-    "es": "Variables de estilo global de tessera",
-    "nl": "tessera globale stijlvariabelen",
-    "pt": "Variáveis de estilo global tessera",
-    "pt-BR": "Variáveis de estilo global tessera",
-    "sv": "tessera globala stilvariabler",
-    "es-MX": "Variables de estilo global de tessera",
-    "es-419": "Variables de estilo global de tessera",
-    "da": "tessera globale stilvariable",
-    "no": "tessera globale stilvariabler",
-    "ko": "tessera 전역 스타일 변수",
-    "pl": "Globalne zmienne stylu tessera",
-    "ja": "tessera グローバルスタイル変数"
+  "i18n.tesseraColorPalette": {
+    "default": "Color Palette"
+  },
+  "i18n.tesseraTypography": {
+    "default": "Typography"
+  },
+  "i18n.tesseraSpacing": {
+    "default": "Spacing",
+    "fr": "Espacement",
+    "it": "Spaziatura",
+    "zh": "间距",
+    "de": "Abstände",
+    "es": "Espaciado",
+    "nl": "Afstand",
+    "pt": "Espaçamento",
+    "pt-BR": "Espaçamento",
+    "sv": "Avstånd",
+    "es-MX": "Espaciado",
+    "es-419": "Espaciado",
+    "da": "Afstand",
+    "no": "Avstand",
+    "ko": "간격",
+    "pl": "Odstępy",
+    "ja": "スペーシング"
+  },
+  "i18n.tesseraGeneralConfig": {
+    "default": "General Config"
   },
   "i18n.tesseraNeutralColors": {
     "default": "Neutral Colors",
@@ -6097,44 +6106,6 @@
     "ko": "세만틱 컬러",
     "pl": "Kolory semantyczne",
     "ja": "セマンティックカラー"
-  },
-  "i18n.tesseraTypographySizes": {
-    "default": "Typography — Sizes",
-    "fr": "Typographie — Tailles",
-    "it": "Tipografia — Dimensioni",
-    "zh": "排版 — 尺寸",
-    "de": "Typografie — Größen",
-    "es": "Tipografía — Tamaños",
-    "nl": "Typografie — Formaten",
-    "pt": "Tipografia — Tamanhos",
-    "pt-BR": "Tipografia — Tamanhos",
-    "sv": "Typografi — Storlekar",
-    "es-MX": "Tipografía — Tamaños",
-    "es-419": "Tipografía — Tamaños",
-    "da": "Typografi — Størrelser",
-    "no": "Typografi — Størrelser",
-    "ko": "타이포그래피 — 크기",
-    "pl": "Typografia — Rozmiary",
-    "ja": "タイポグラフィ — サイズ"
-  },
-  "i18n.tesseraSpacing": {
-    "default": "Spacing",
-    "fr": "Espacement",
-    "it": "Spaziatura",
-    "zh": "间距",
-    "de": "Abstände",
-    "es": "Espaciado",
-    "nl": "Afstand",
-    "pt": "Espaçamento",
-    "pt-BR": "Espaçamento",
-    "sv": "Avstånd",
-    "es-MX": "Espaciado",
-    "es-419": "Espaciado",
-    "da": "Afstand",
-    "no": "Avstand",
-    "ko": "간격",
-    "pl": "Odstępy",
-    "ja": "スペーシング"
   },
   "i18n.tesseraRadius": {
     "default": "Radius",
@@ -6669,7 +6640,7 @@
     "ja": "情報の背景"
   },
   "i18n.tesseraFontBase": {
-    "default": "Base Font Size",
+    "default": "Base Font Size ",
     "fr": "Taille de police de base",
     "it": "Dimensione carattere base",
     "zh": "基础字体大小",
@@ -6688,7 +6659,7 @@
     "ja": "基本フォントサイズ"
   },
   "i18n.tesseraFontSizeDisplayXl": {
-    "default": "Display XL",
+    "default": "Display XL ",
     "fr": "Affichage XL",
     "it": "Display XL",
     "zh": "显示 XL",
@@ -6707,7 +6678,7 @@
     "ja": "表示 XL"
   },
   "i18n.tesseraFontSizeDisplayL": {
-    "default": "Display L",
+    "default": "Display L ",
     "fr": "Affichage L",
     "it": "Display L",
     "zh": "显示 L",
@@ -6726,7 +6697,7 @@
     "ja": "表示 L"
   },
   "i18n.tesseraFontSizeH1": {
-    "default": "Heading 1",
+    "default": "Heading 1 ",
     "fr": "Titre 1",
     "it": "Intestazione 1",
     "zh": "标题 1",
@@ -6745,7 +6716,7 @@
     "ja": "見出し 1"
   },
   "i18n.tesseraFontSizeH2": {
-    "default": "Heading 2",
+    "default": "Heading 2 ",
     "fr": "Titre 2",
     "it": "Intestazione 2",
     "zh": "标题 2",
@@ -6764,7 +6735,7 @@
     "ja": "見出し 2"
   },
   "i18n.tesseraFontSizeH3": {
-    "default": "Heading 3",
+    "default": "Heading 3 ",
     "fr": "Titre 3",
     "it": "Intestazione 3",
     "zh": "标题 3",
@@ -6783,7 +6754,7 @@
     "ja": "見出し 3"
   },
   "i18n.tesseraFontSizeH4": {
-    "default": "Heading 4",
+    "default": "Heading 4 ",
     "fr": "Titre 4",
     "it": "Intestazione 4",
     "zh": "标题 4",
@@ -6802,7 +6773,7 @@
     "ja": "見出し 4"
   },
   "i18n.tesseraFontSizeBodyL": {
-    "default": "Body L",
+    "default": "Body L ",
     "fr": "Corps L",
     "it": "Corpo L",
     "zh": "正文 L",
@@ -6821,7 +6792,7 @@
     "ja": "本文 L"
   },
   "i18n.tesseraFontSizeBody": {
-    "default": "Body",
+    "default": "Body ",
     "fr": "Corps",
     "it": "Corpo",
     "zh": "正文",
@@ -6840,7 +6811,7 @@
     "ja": "本文"
   },
   "i18n.tesseraFontSizeBodyS": {
-    "default": "Body S",
+    "default": "Body S ",
     "fr": "Corps S",
     "it": "Corpo S",
     "zh": "正文 S",
@@ -6859,7 +6830,7 @@
     "ja": "本文 S"
   },
   "i18n.tesseraFontSizeCaption": {
-    "default": "Caption",
+    "default": "Caption ",
     "fr": "Légende",
     "it": "Didascalia",
     "zh": "说明",
@@ -6878,7 +6849,7 @@
     "ja": "キャプション"
   },
   "i18n.tesseraFontSizeOverline": {
-    "default": "Overline",
+    "default": "Overline ",
     "fr": "Ligne supérieure",
     "it": "Sopralinea",
     "zh": "上划线",
@@ -6897,7 +6868,7 @@
     "ja": "オーバーライン"
   },
   "i18n.tesseraSpace1": {
-    "default": "Space 1 (0.25rem)",
+    "default": "Space 1 (0.25rem) ",
     "fr": "Espace 1 (0.25rem)",
     "it": "Spazio 1 (0.25rem)",
     "zh": "间距 1 (0.25rem)",
@@ -6916,7 +6887,7 @@
     "ja": "スペース 1 (0.25rem)"
   },
   "i18n.tesseraSpace2": {
-    "default": "Space 2 (0.5rem)",
+    "default": "Space 2 (0.5rem) ",
     "fr": "Espace 2 (0.5rem)",
     "it": "Spazio 2 (0.5rem)",
     "zh": "间距 2 (0.5rem)",
@@ -6935,7 +6906,7 @@
     "ja": "スペース 2 (0.5rem)"
   },
   "i18n.tesseraSpace3": {
-    "default": "Space 3 (0.75rem)",
+    "default": "Space 3 (0.75rem) ",
     "fr": "Espace 3 (0.75rem)",
     "it": "Spazio 3 (0.75rem)",
     "zh": "间距 3 (0.75rem)",
@@ -6954,7 +6925,7 @@
     "ja": "スペース 3 (0.75rem)"
   },
   "i18n.tesseraSpace4": {
-    "default": "Space 4 (1rem)",
+    "default": "Space 4 (1rem) ",
     "fr": "Espace 4 (1rem)",
     "it": "Spazio 4 (1rem)",
     "zh": "间距 4 (1rem)",
@@ -6973,7 +6944,7 @@
     "ja": "スペース 4 (1rem)"
   },
   "i18n.tesseraSpace5": {
-    "default": "Space 5 (1.5rem)",
+    "default": "Space 5 (1.5rem) ",
     "fr": "Espace 5 (1.5rem)",
     "it": "Spazio 5 (1.5rem)",
     "zh": "间距 5 (1.5rem)",
@@ -6992,7 +6963,7 @@
     "ja": "スペース 5 (1.5rem)"
   },
   "i18n.tesseraSpace6": {
-    "default": "Space 6 (2rem)",
+    "default": "Space 6 (2rem) ",
     "fr": "Espace 6 (2rem)",
     "it": "Spazio 6 (2rem)",
     "zh": "间距 6 (2rem)",
@@ -7011,7 +6982,7 @@
     "ja": "スペース 6 (2rem)"
   },
   "i18n.tesseraSpace7": {
-    "default": "Space 7 (3rem)",
+    "default": "Space 7 (3rem) ",
     "fr": "Espace 7 (3rem)",
     "it": "Spazio 7 (3rem)",
     "zh": "间距 7 (3rem)",
@@ -7030,7 +7001,7 @@
     "ja": "スペース 7 (3rem)"
   },
   "i18n.tesseraSpace8": {
-    "default": "Space 8 (4rem)",
+    "default": "Space 8 (4rem) ",
     "fr": "Espace 8 (4rem)",
     "it": "Spazio 8 (4rem)",
     "zh": "间距 8 (4rem)",
@@ -7049,7 +7020,7 @@
     "ja": "スペース 8 (4rem)"
   },
   "i18n.tesseraSpace9": {
-    "default": "Space 9 (6rem)",
+    "default": "Space 9 (6rem) ",
     "fr": "Espace 9 (6rem)",
     "it": "Spazio 9 (6rem)",
     "zh": "间距 9 (6rem)",
@@ -7068,7 +7039,7 @@
     "ja": "スペース 9 (6rem)"
   },
   "i18n.tesseraSpace10": {
-    "default": "Space 10 (8rem)",
+    "default": "Space 10 (8rem) ",
     "fr": "Espace 10 (8rem)",
     "it": "Spazio 10 (8rem)",
     "zh": "间距 10 (8rem)",
