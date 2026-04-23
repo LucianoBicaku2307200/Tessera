@@ -37,7 +37,11 @@
   },
   "css_compiler": "scss",
   "autoprefixer_cascade": true,
-  "autoprefixer_browsers": ["> 1%", "last 2 versions", "Firefox ESR"],
+  "autoprefixer_browsers": [
+    "> 1%",
+    "last 2 versions",
+    "Firefox ESR"
+  ],
   "settings": {
     "channels": [
       {
@@ -368,7 +372,11 @@
       "unionpay",
       "visa"
     ],
-    "supported_payment_methods": ["card", "paypal", "bank"],
+    "supported_payment_methods": [
+      "card",
+      "paypal",
+      "bank"
+    ],
     "lazyload_mode": "lazyload+lqip",
     "checkout-paymentbuttons-paypal-color": "black",
     "checkout-paymentbuttons-paypal-shape": "rect",
@@ -439,7 +447,51 @@
     "tessera-border-hairline": "0.5px solid var(--color-neutral-200)",
     "tessera-border-1": "1px solid var(--color-neutral-200)",
     "tessera-border-2": "2px solid var(--color-neutral-900)",
-    "tessera-ease": "cubic-bezier(0.2, 0.7, 0.2, 1)"
+    "tessera-ease": "cubic-bezier(0.2, 0.7, 0.2, 1)",
+    "tessera-font-base-small": "12px",
+    "tessera-font-base-medium": "14px",
+    "tessera-font-size-display-xl-small": "3rem",
+    "tessera-font-size-display-xl-medium": "4.5rem",
+    "tessera-font-size-display-l-small": "2.5rem",
+    "tessera-font-size-display-l-medium": "3.5rem",
+    "tessera-font-size-h1-small": "2rem",
+    "tessera-font-size-h1-medium": "2.5rem",
+    "tessera-font-size-h2-small": "1.5rem",
+    "tessera-font-size-h2-medium": "2rem",
+    "tessera-font-size-h3-small": "1.25rem",
+    "tessera-font-size-h3-medium": "1.5rem",
+    "tessera-font-size-h4-small": "1rem",
+    "tessera-font-size-h4-medium": "1.125rem",
+    "tessera-font-size-body-l-small": "1rem",
+    "tessera-font-size-body-l-medium": "1rem",
+    "tessera-font-size-body-small": "0.875rem",
+    "tessera-font-size-body-medium": "0.9375rem",
+    "tessera-font-size-body-s-small": "0.75rem",
+    "tessera-font-size-body-s-medium": "0.8125rem",
+    "tessera-font-size-caption-small": "0.6875rem",
+    "tessera-font-size-caption-medium": "0.75rem",
+    "tessera-font-size-overline-small": "0.625rem",
+    "tessera-font-size-overline-medium": "0.6875rem",
+    "tessera-space-1-small": "0.25rem",
+    "tessera-space-1-medium": "0.25rem",
+    "tessera-space-2-small": "0.25rem",
+    "tessera-space-2-medium": "0.5rem",
+    "tessera-space-3-small": "0.5rem",
+    "tessera-space-3-medium": "0.625rem",
+    "tessera-space-4-small": "0.75rem",
+    "tessera-space-4-medium": "0.875rem",
+    "tessera-space-5-small": "1rem",
+    "tessera-space-5-medium": "1.25rem",
+    "tessera-space-6-small": "1.5rem",
+    "tessera-space-6-medium": "1.75rem",
+    "tessera-space-7-small": "2rem",
+    "tessera-space-7-medium": "2.5rem",
+    "tessera-space-8-small": "2.5rem",
+    "tessera-space-8-medium": "3rem",
+    "tessera-space-9-small": "3rem",
+    "tessera-space-9-medium": "4rem",
+    "tessera-space-10-small": "4rem",
+    "tessera-space-10-medium": "6rem"
   },
   "read_only_files": [
     "/assets/scss/components/citadel",
@@ -473,7 +525,9 @@
           "sales_discounts",
           "large_catalog"
         ],
-        "industries": ["home_garden"]
+        "industries": [
+          "home_garden"
+        ]
       },
       "images": {},
       "settings": {}

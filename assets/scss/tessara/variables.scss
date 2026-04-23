@@ -33,28 +33,70 @@
     --color-info-bg: stencilColor("tessera-color-info-bg");
 
     --font-size-display-xl: stencilString("tessera-font-size-display-xl");
+    --font-size-display-xl-small: stencilString("tessera-font-size-display-xl-small");
+    --font-size-display-xl-medium: stencilString("tessera-font-size-display-xl-medium");
     --font-size-display-l: stencilString("tessera-font-size-display-l");
+    --font-size-display-l-small: stencilString("tessera-font-size-display-l-small");
+    --font-size-display-l-medium: stencilString("tessera-font-size-display-l-medium");
     --font-size-h1: stencilString("tessera-font-size-h1");
+    --font-size-h1-small: stencilString("tessera-font-size-h1-small");
+    --font-size-h1-medium: stencilString("tessera-font-size-h1-medium");
     --font-size-h2: stencilString("tessera-font-size-h2");
+    --font-size-h2-small: stencilString("tessera-font-size-h2-small");
+    --font-size-h2-medium: stencilString("tessera-font-size-h2-medium");
     --font-size-h3: stencilString("tessera-font-size-h3");
+    --font-size-h3-small: stencilString("tessera-font-size-h3-small");
+    --font-size-h3-medium: stencilString("tessera-font-size-h3-medium");
     --font-size-h4: stencilString("tessera-font-size-h4");
+    --font-size-h4-small: stencilString("tessera-font-size-h4-small");
+    --font-size-h4-medium: stencilString("tessera-font-size-h4-medium");
     --font-size-body-l: stencilString("tessera-font-size-body-l");
+    --font-size-body-l-small: stencilString("tessera-font-size-body-l-small");
+    --font-size-body-l-medium: stencilString("tessera-font-size-body-l-medium");
     --font-size-body: stencilString("tessera-font-size-body");
+    --font-size-body-small: stencilString("tessera-font-size-body-small");
+    --font-size-body-medium: stencilString("tessera-font-size-body-medium");
     --font-size-body-s: stencilString("tessera-font-size-body-s");
+    --font-size-body-s-small: stencilString("tessera-font-size-body-s-small");
+    --font-size-body-s-medium: stencilString("tessera-font-size-body-s-medium");
     --font-size-caption: stencilString("tessera-font-size-caption");
+    --font-size-caption-small: stencilString("tessera-font-size-caption-small");
+    --font-size-caption-medium: stencilString("tessera-font-size-caption-medium");
     --font-size-overline: stencilString("tessera-font-size-overline");
+    --font-size-overline-small: stencilString("tessera-font-size-overline-small");
+    --font-size-overline-medium: stencilString("tessera-font-size-overline-medium");
 
     /* Spacing — 4/8 scale */
     --space-1: stencilString("tessera-space-1");
+    --space-1-small: stencilString("tessera-space-1-small");
+    --space-1-medium: stencilString("tessera-space-1-medium");
     --space-2: stencilString("tessera-space-2");
+    --space-2-small: stencilString("tessera-space-2-small");
+    --space-2-medium: stencilString("tessera-space-2-medium");
     --space-3: stencilString("tessera-space-3");
+    --space-3-small: stencilString("tessera-space-3-small");
+    --space-3-medium: stencilString("tessera-space-3-medium");
     --space-4: stencilString("tessera-space-4");
+    --space-4-small: stencilString("tessera-space-4-small");
+    --space-4-medium: stencilString("tessera-space-4-medium");
     --space-5: stencilString("tessera-space-5");
+    --space-5-small: stencilString("tessera-space-5-small");
+    --space-5-medium: stencilString("tessera-space-5-medium");
     --space-6: stencilString("tessera-space-6");
+    --space-6-small: stencilString("tessera-space-6-small");
+    --space-6-medium: stencilString("tessera-space-6-medium");
     --space-7: stencilString("tessera-space-7");
+    --space-7-small: stencilString("tessera-space-7-small");
+    --space-7-medium: stencilString("tessera-space-7-medium");
     --space-8: stencilString("tessera-space-8");
+    --space-8-small: stencilString("tessera-space-8-small");
+    --space-8-medium: stencilString("tessera-space-8-medium");
     --space-9: stencilString("tessera-space-9");
+    --space-9-small: stencilString("tessera-space-9-small");
+    --space-9-medium: stencilString("tessera-space-9-medium");
     --space-10: stencilString("tessera-space-10");
+    --space-10-small: stencilString("tessera-space-10-small");
+    --space-10-medium: stencilString("tessera-space-10-medium");
 
     /* Radius */
     --radius-sm: stencilString("tessera-radius-sm");
@@ -82,13 +124,11 @@
 /* ========================================================================
    BASE
    ======================================================================== */
-* {
-    box-sizing: border-box;
-}
 html,
-body {
+body,*  {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
     background: var(--color-neutral-50);
