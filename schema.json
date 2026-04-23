@@ -46,33 +46,6 @@
         "content": "i18n.BodyTextAndLinks"
       },
       {
-        "type": "font",
-        "label": "i18n.BodyTextFontFamily",
-        "id": "body-font",
-        "options": [
-          {
-            "group": "i18n.Karla",
-            "label": "i18n.Karla",
-            "value": "Google_Karla_400"
-          },
-          {
-            "group": "i18n.Karla",
-            "label": "i18n.KarlaBold",
-            "value": "Google_Karla_700"
-          },
-          {
-            "group": "i18n.Roboto",
-            "label": "i18n.Roboto",
-            "value": "Google_Roboto_400"
-          },
-          {
-            "group": "i18n.SourceSansPro",
-            "label": "i18n.SourceSansPro",
-            "value": "Google_Source+Sans+Pro_400"
-          }
-        ]
-      },
-      {
         "type": "select",
         "label": "i18n.BodyTextFontSize",
         "id": "fontSize-root",
@@ -137,38 +110,6 @@
       {
         "type": "heading",
         "content": "i18n.Headings"
-      },
-      {
-        "type": "font",
-        "label": "i18n.HeadingFontFamily",
-        "id": "headings-font",
-        "options": [
-          {
-            "group": "i18n.Montserrat",
-            "label": "i18n.MontserratLight",
-            "value": "Google_Montserrat_400"
-          },
-          {
-            "group": "i18n.OpenSans",
-            "label": "i18n.OpenSans",
-            "value": "Google_Open+Sans_400"
-          },
-          {
-            "group": "i18n.OpenSans",
-            "label": "i18n.OpenSansBold",
-            "value": "Google_Open+Sans_700"
-          },
-          {
-            "group": "i18n.Roboto",
-            "label": "i18n.Roboto",
-            "value": "Google_Roboto_400"
-          },
-          {
-            "group": "i18n.Volkhov",
-            "label": "i18n.Volkhov",
-            "value": "Google_Volkhov_400"
-          }
-        ]
       },
       {
         "type": "select",
@@ -3852,6 +3793,28 @@
   {
     "name": "i18n.tesseraTypography",
     "settings": [
+      {
+        "type": "heading",
+        "content": "i18n.tesseraFontFamily"
+      },
+      {
+        "type": "text",
+        "label": "i18n.HeadingFontFamily",
+        "id": "headings-font",
+        "default": "Google_Instrument+Serif_ital@0;1"
+      },
+      {
+        "type": "text",
+        "label": "i18n.BodyTextFontFamily",
+        "id": "body-font",
+        "default": "Google_IBM+Plex+Sans_300,400,500,600,700"
+      },
+      {
+        "type": "text",
+        "label": "i18n.tesseraInfoFontFamily",
+        "id": "info-font",
+        "default": "Google_IBM+Plex+Mono_400,500"
+      },
       {
         "type": "heading",
         "content": "i18n.tesseraFontBase"

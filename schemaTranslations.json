@@ -6639,6 +6639,9 @@
     "pl": "Tło info",
     "ja": "情報の背景"
   },
+  "i18n.tesseraFontFamily": {
+    "default": "Base Font Family"
+  },
   "i18n.tesseraFontBase": {
     "default": "Base Font Size ",
     "fr": "Taille de police de base",
@@ -8158,5 +8161,8 @@
     "ko": "간격 10 (8rem) - 태블릿",
     "pl": "Odstęp 10 (8rem) - Tablet",
     "ja": "スペース 10 (8rem) - タブレット"
+  },
+  "i18n.tesseraInfoFontFamily":{
+    "default": "Info font family"
   }
 }

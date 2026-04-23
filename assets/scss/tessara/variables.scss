@@ -163,6 +163,12 @@
 
     /* Motion */
     --ease: stencilString("tessera-ease");
+
+    /* Typography */
+    --font-headings: stencilString("headings-font");
+    --font-body: stencilString("body-font");
+    --font-info: stencilString("info-font");
+
 }
 
 /* ========================================================================
