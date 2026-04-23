@@ -1,0 +1,118 @@
+// Tessara color Palette
+// ----------------------------------------------------------------------------
+
+:root {
+    /* Neutrals — warm off-white → deep ink */
+    --color-neutral-0: stencilColor("atlas-color-neutral-0");
+    --color-neutral-50: stencilColor("atlas-color-neutral-50");
+    --color-neutral-100: stencilColor("atlas-color-neutral-100");
+    --color-neutral-200: stencilColor("atlas-color-neutral-200");
+    --color-neutral-300: stencilColor("atlas-color-neutral-300");
+    --color-neutral-400: stencilColor("atlas-color-neutral-400");
+    --color-neutral-500: stencilColor("atlas-color-neutral-500");
+    --color-neutral-600: stencilColor("atlas-color-neutral-600");
+    --color-neutral-700: stencilColor("atlas-color-neutral-700");
+    --color-neutral-800: stencilColor("atlas-color-neutral-800");
+    --color-neutral-900: stencilColor("atlas-color-neutral-900");
+
+    /* Accent — deep ink-teal (category-agnostic, timeless) */
+    --color-accent-100: stencilColor("atlas-color-accent-100");
+    --color-accent-200: stencilColor("atlas-color-accent-200");
+    --color-accent-300: stencilColor("atlas-color-accent-300");
+    --color-accent-500: stencilColor("atlas-color-accent-500");
+    --color-accent-700: stencilColor("atlas-color-accent-700");
+
+    /* Semantic — muted */
+    --color-success: stencilColor("atlas-color-success");
+    --color-success-bg: stencilColor("atlas-color-success-bg");
+    --color-warning: stencilColor("atlas-color-warning");
+    --color-warning-bg: stencilColor("atlas-color-warning-bg");
+    --color-error: stencilColor("atlas-color-error");
+    --color-error-bg: stencilColor("atlas-color-error-bg");
+    --color-info: stencilColor("atlas-color-info");
+    --color-info-bg: stencilColor("atlas-color-info-bg");
+
+    --font-size-display-xl: stencilString("atlas-font-size-display-xl");
+    --font-size-display-l: stencilString("atlas-font-size-display-l");
+    --font-size-h1: stencilString("atlas-font-size-h1");
+    --font-size-h2: stencilString("atlas-font-size-h2");
+    --font-size-h3: stencilString("atlas-font-size-h3");
+    --font-size-h4: stencilString("atlas-font-size-h4");
+    --font-size-body-l: stencilString("atlas-font-size-body-l");
+    --font-size-body: stencilString("atlas-font-size-body");
+    --font-size-body-s: stencilString("atlas-font-size-body-s");
+    --font-size-caption: stencilString("atlas-font-size-caption");
+    --font-size-overline: stencilString("atlas-font-size-overline");
+
+    /* Spacing — 4/8 scale */
+    --space-1: stencilString("atlas-space-1");
+    --space-2: stencilString("atlas-space-2");
+    --space-3: stencilString("atlas-space-3");
+    --space-4: stencilString("atlas-space-4");
+    --space-5: stencilString("atlas-space-5");
+    --space-6: stencilString("atlas-space-6");
+    --space-7: stencilString("atlas-space-7");
+    --space-8: stencilString("atlas-space-8");
+    --space-9: stencilString("atlas-space-9");
+    --space-10: stencilString("atlas-space-10");
+
+    /* Radius */
+    --radius-sm: stencilString("atlas-radius-sm");
+    --radius-md: stencilString("atlas-radius-md");
+    --radius-lg: stencilString("atlas-radius-lg");
+    --radius-xl: stencilString("atlas-radius-xl");
+    --radius-full: stencilString("atlas-radius-full");
+
+    /* Shadow / elevation */
+    --shadow-0: stencilString("atlas-shadow-0");
+    --shadow-1: stencilString("atlas-shadow-1");
+    --shadow-2: stencilString("atlas-shadow-2");
+    --shadow-3: stencilString("atlas-shadow-3");
+    --shadow-4: stencilString("atlas-shadow-4");
+
+    /* Borders */
+    --border-hairline: stencilString("atlas-border-hairline");
+    --border-1: stencilString("atlas-border-1");
+    --border-2: stencilString("atlas-border-2");
+
+    /* Motion */
+    --ease: stencilString("atlas-ease");
+}
+
+/* ========================================================================
+   BASE
+   ======================================================================== */
+* {
+    box-sizing: border-box;
+}
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: var(--color-neutral-50);
+    color: var(--color-neutral-900);
+    font-family: var(--font-sans);
+    font-size: var(--font-size-body);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+img,
+svg {
+    display: block;
+    max-width: 100%;
+}
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+input,
+textarea,
+select {
+    font-family: inherit;
+}
+a {
+    color: inherit;
+}
