@@ -15,3 +15,5 @@ vendor/bundle
 .claude
 claude/
 claude.md
+
+widgets/
