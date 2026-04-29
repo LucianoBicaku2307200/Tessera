@@ -325,3 +325,94 @@
 .ease {
     transition-timing-function: var(--ease);
 }
+
+// Layout 
+// ============================================================================
+
+$breakpoints: (
+  'sm': stencilText('tessera-breakpoint-small'),
+  'md': stencilText('tessera-breakpoint-medium'),
+  'lg': stencilText('tessera-breakpoint-large'),
+);
+
+
+@mixin apply-grid($config) {
+  @if map-get($config, 'cols') {
+    grid-template-columns: repeat(map-get($config, 'cols'), 1fr);
+  }
+
+  $gap:   map-get($config, 'gap');
+  $gap-x: map-get($config, 'gap-x');
+  $gap-y: map-get($config, 'gap-y');
+
+  @if $gap-x      { column-gap: $gap-x; }
+  @else if $gap   { column-gap: $gap; }
+
+  @if $gap-y      { row-gap: $gap-y; }
+  @else if $gap   { row-gap: $gap; }
+}
+
+@mixin grid-layout($lg: null, $md: null, $sm: null) {
+  display: grid;
+
+  @if $lg { @include apply-grid($lg); }
+
+  @if $md {
+    @media (max-width: 1024px) {
+      @include apply-grid($md);
+    }
+  }
+
+  @if $sm {
+    @media (max-width: 640px) {
+      @include apply-grid($sm);
+    }
+  }
+}
+
+// Generate .grid-col-1 through .grid-col-12
+@for $i from 1 through 12 {
+  .grid-col-#{$i} {
+    @include grid-layout(
+      $lg: ('cols': $i,                   'gap': 12px),
+      $md: ('cols': max(1, $i / 2),       'gap-x': 1rem,  'gap-y': 2rem),
+      $sm: ('cols': max(1, $i / 4),       'gap': 0.5rem),
+    );
+  }
+}
+
+//Width utilities
+// ==============================================================================
+
+@mixin generate-widths() {
+  @for $i from 1 through 12 {
+
+    // base - no breakpoint
+    .width-#{$i}-12 {
+      width: percentage($i / 12);
+    }
+
+    // lg
+    .width-lg-#{$i}-12 {
+      @include  breakpoint('large') {
+        width: percentage($i / 12);
+      }
+    }
+
+    // md
+    .width-md-#{$i}-12 {
+      @include  breakpoint('medium') {
+        width: percentage($i / 12);
+      }
+    }
+
+    // sm
+    .width-sm-#{$i}-12 {
+      @include  breakpoint('small') {
+        width: percentage($i / 12);
+      }
+    }
+  }
+}
+
+@include generate-widths();
