@@ -6022,6 +6022,21 @@
     "pl": "Bolt",
     "ja": "Bolt"
   },
+  "i18n.tesseraScreenSizeBreakpoints": {
+    "default": "Screen Size - Breakpoints"
+  },
+  "i18n.tesseraBreakpointSmall": {
+    "default": "Breakpoint - Small"
+  },
+  "i18n.tesseraBreakpointMedium": {
+    "default": "Breakpoint - Medium"
+  },
+  "i18n.tesseraBreakpointLarge": {
+    "default": "Breakpoint - Large"
+  },
+  "i18n.tesseraMainMaxWidth": {
+    "default": "Main Max Width"
+  },
   "i18n.tesseraColorPalette": {
     "default": "Color Palette"
   },
@@ -8162,7 +8177,7 @@
     "pl": "Odstęp 10 (8rem) - Tablet",
     "ja": "スペース 10 (8rem) - タブレット"
   },
-  "i18n.tesseraInfoFontFamily":{
+  "i18n.tesseraInfoFontFamily": {
     "default": "Info font family"
   }
 }

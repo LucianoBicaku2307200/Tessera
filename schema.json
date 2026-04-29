@@ -3630,6 +3630,35 @@
     ]
   },
   {
+    "name": "i18n.tesseraScreenSizeBreakpoints",
+    "settings": [
+      {
+        "type": "text",
+        "label": "i18n.tesseraMainMaxWidth",
+        "id": "tessera-main-max-width",
+        "force_reload": true
+      },
+      {
+        "type": "text",
+        "label": "i18n.tesseraBreakpointSmall",
+        "id": "tessera-breakpoint-small",
+        "force_reload": true
+      },
+      {
+        "type": "text",
+        "label": "i18n.tesseraBreakpointMedium",
+        "id": "tessera-breakpoint-medium",
+        "force_reload": true
+      },
+      {
+        "type": "text",
+        "label": "i18n.tesseraBreakpointLarge",
+        "id": "tessera-breakpoint-large",
+        "force_reload": true
+      }
+    ]
+  },
+  {
     "name": "i18n.tesseraColorPalette",
     "settings": [
       {
