@@ -138,6 +138,8 @@ $font-headings: stencilString("headings-font");
 $font-body: stencilString("body-font");
 $font-info: stencilString("info-font");
 
+$page-max-width: stencilString("tessera-main-max-width");
+
 :root {
     /* Neutrals — warm off-white → deep ink */
     --color-neutral-0: #{$color-neutral-0};
@@ -306,6 +308,13 @@ $font-info: stencilString("info-font");
     --font-body: #{$font-body};
     --font-info: #{$font-info};
 
+    //remove these later, after finishing the hole component library and ensuring that all components use the new font variables
+     --font-display: "Instrument Serif", "Cormorant Garamond", Georgia, serif;
+     --font-sans: "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    /* Page */
+    --page-max-width: #{$page-max-width};
+
 }
 
 /* ========================================================================
@@ -320,7 +329,7 @@ body,*  {
 body {
     background: var(--color-neutral-50);
     color: var(--color-neutral-900);
-    font-family: var(--font-sans);
+    font-family: var(--font-body);
     font-size: var(--font-size-body);
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
@@ -331,10 +340,6 @@ svg {
     display: block;
     max-width: 100%;
 }
-button {
-    font-family: inherit;
-    cursor: pointer;
-}
 input,
 textarea,
 select {
@@ -342,4 +347,12 @@ select {
 }
 a {
     color: inherit;
+}
+
+
+/* Page shell */
+.page {
+  max-width: var(--page-max-width);
+  margin: 0 auto;
+  padding: 0 var(--space-7);
 }

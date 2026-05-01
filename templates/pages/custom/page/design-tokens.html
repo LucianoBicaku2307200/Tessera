@@ -15,125 +15,18 @@
     <text x="600" y="660" text-anchor="middle" font-family="ui-monospace, monospace" font-size="20" letter-spacing="6" fill="#5C5851">ATLAS · DESIGN SYSTEM</text>
   </svg>
 </template>
+{{{stylesheet '/assets/css/theme.css'}}}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
 /* ========================================================================
-   ATLAS — Foundational eCommerce Design System v1.0 (Warm Minimal)
+   Tessera — Foundational eCommerce Design System v1.0 (Warm Minimal)
    ======================================================================== */
-:root {
-  /* Neutrals — warm off-white → deep ink */
-  --color-neutral-0:   #FFFFFF;
-  --color-neutral-50:  #FAF8F4;
-  --color-neutral-100: #F4F1EB;
-  --color-neutral-200: #E9E4DA;
-  --color-neutral-300: #D6CFC1;
-  --color-neutral-400: #B5AD9E;
-  --color-neutral-500: #8A8477;
-  --color-neutral-600: #5E5A51;
-  --color-neutral-700: #3D3A34;
-  --color-neutral-800: #26241F;
-  --color-neutral-900: #1A1915;
-
-  /* Accent — deep ink-teal (category-agnostic, timeless) */
-  --color-accent-100: #E3EAE7;
-  --color-accent-200: #B8C9C3;
-  --color-accent-300: #7A9A92;
-  --color-accent-500: #2F544D;
-  --color-accent-700: #1B352F;
-
-  /* Semantic — muted */
-  --color-success: #4A6B4F;
-  --color-success-bg: #EBF0EA;
-  --color-warning: #9A6F2E;
-  --color-warning-bg: #F5EDDC;
-  --color-error:   #8B3A2F;
-  --color-error-bg:   #F3E3DE;
-  --color-info:    #3C5770;
-  --color-info-bg:    #E4EAF0;
-
-  /* Typography */
-  --font-display: "Instrument Serif", "Cormorant Garamond", Georgia, serif;
-  --font-sans: "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
-
-  --font-size-display-xl: 96px;
-  --font-size-display-l:  72px;
-  --font-size-h1: 48px;
-  --font-size-h2: 36px;
-  --font-size-h3: 26px;
-  --font-size-h4: 20px;
-  --font-size-body-l: 18px;
-  --font-size-body:   15px;
-  --font-size-body-s: 13px;
-  --font-size-caption: 12px;
-  --font-size-overline: 11px;
-
-  /* Spacing — 4/8 scale */
-  --space-1: 4px;
-  --space-2: 8px;
-  --space-3: 12px;
-  --space-4: 16px;
-  --space-5: 24px;
-  --space-6: 32px;
-  --space-7: 48px;
-  --space-8: 64px;
-  --space-9: 96px;
-  --space-10: 128px;
-
-  /* Radius */
-  --radius-sm: 2px;
-  --radius-md: 4px;
-  --radius-lg: 8px;
-  --radius-xl: 16px;
-  --radius-full: 999px;
-
-  /* Shadow / elevation */
-  --shadow-0: none;
-  --shadow-1: 0 1px 2px rgba(26, 25, 21, 0.05);
-  --shadow-2: 0 2px 6px rgba(26, 25, 21, 0.06), 0 1px 2px rgba(26, 25, 21, 0.04);
-  --shadow-3: 0 8px 20px rgba(26, 25, 21, 0.07), 0 2px 6px rgba(26, 25, 21, 0.04);
-  --shadow-4: 0 18px 40px rgba(26, 25, 21, 0.10), 0 4px 12px rgba(26, 25, 21, 0.05);
-
-  /* Borders */
-  --border-hairline: 0.5px solid var(--color-neutral-200);
-  --border-1: 1px solid var(--color-neutral-200);
-  --border-2: 2px solid var(--color-neutral-900);
-
-  /* Motion */
-  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
-}
 
 /* ========================================================================
    BASE
    ======================================================================== */
-* { box-sizing: border-box; }
-html, body { margin: 0; padding: 0; }
-body {
-  background: var(--color-neutral-50);
-  color: var(--color-neutral-900);
-  font-family: var(--font-sans);
-  font-size: var(--font-size-body);
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-}
-img, svg { display: block; max-width: 100%; }
-button { font-family: inherit; cursor: pointer; }
-input, textarea, select { font-family: inherit; }
-a { color: inherit; }
-
-/* Page shell */
-.page {
-  max-width: 1360px;
-  margin: 0 auto;
-  padding: 0 var(--space-7);
-}
-@media (max-width: 900px) {
-  .page { padding: 0 var(--space-5); }
-}
-
 /* Section rhythm */
 section {
   padding: var(--space-9) 0;
@@ -825,73 +718,6 @@ section:first-of-type { border-top: 0; }
 </section>
 
 <style>
-/* ========================================================================
-   PRIMITIVES
-   ======================================================================== */
-
-/* ---- Buttons ---- */
-.btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: var(--space-2);
-  font-family: var(--font-sans);
-  font-weight: 500;
-  font-size: var(--font-size-body-s);
-  letter-spacing: 0.01em;
-  line-height: 1;
-  border: 1px solid transparent;
-  border-radius: var(--radius-md);
-  padding: 12px 18px;
-  cursor: pointer;
-  transition: background 0.15s var(--ease), border-color 0.15s var(--ease), color 0.15s var(--ease), box-shadow 0.15s var(--ease);
-  white-space: nowrap;
-}
-.btn-sm { padding: 8px 12px; font-size: var(--font-size-caption); }
-.btn-lg { padding: 16px 24px; font-size: var(--font-size-body); }
-
-.btn-primary { background: var(--color-neutral-900); color: var(--color-neutral-50); }
-.btn-primary:hover { background: var(--color-neutral-800); }
-.btn-primary:active { background: var(--color-neutral-700); }
-.btn-primary:focus-visible { outline: 2px solid var(--color-accent-500); outline-offset: 2px; }
-
-.btn-secondary { background: transparent; color: var(--color-neutral-900); border-color: var(--color-neutral-900); }
-.btn-secondary:hover { background: var(--color-neutral-900); color: var(--color-neutral-50); }
-
-.btn-tertiary { background: var(--color-neutral-100); color: var(--color-neutral-900); }
-.btn-tertiary:hover { background: var(--color-neutral-200); }
-
-.btn-ghost { background: transparent; color: var(--color-neutral-900); }
-.btn-ghost:hover { background: var(--color-neutral-100); }
-
-.btn-link {
-  background: none; border: 0; padding: 4px 0;
-  color: var(--color-neutral-900);
-  text-decoration: underline;
-  text-underline-offset: 4px;
-  text-decoration-color: var(--color-neutral-300);
-}
-.btn-link:hover { text-decoration-color: var(--color-neutral-900); }
-
-.btn-destructive { background: var(--color-error); color: var(--color-neutral-0); }
-.btn-destructive:hover { background: #6F2D24; }
-
-.btn[disabled], .btn.is-disabled { opacity: 0.45; cursor: not-allowed; pointer-events: none; }
-
-.btn-icon {
-  width: 40px; height: 40px; padding: 0; border-radius: var(--radius-md);
-}
-.btn-icon.btn-sm { width: 32px; height: 32px; }
-
-.btn .spinner {
-  width: 14px; height: 14px; border-radius: 50%;
-  border: 1.5px solid currentColor; border-top-color: transparent;
-  animation: spin 0.8s linear infinite;
-}
-@keyframes spin { to { transform: rotate(360deg); } }
-
-.ico { width: 14px; height: 14px; stroke: currentColor; fill: none; stroke-width: 1.5; }
-.ico-lg { width: 18px; height: 18px; }
 
 /* States row for buttons */
 .state-row {
