@@ -4,238 +4,63 @@
 // COLORS — Text
 // ============================================================================
 
-.text-color-neutral-0 {
-    color: var(--color-neutral-0);
+@mixin generate-color-classes($property, $prefix, $colors) {
+  @each $color in $colors {
+    .#{$prefix}-#{$color} {
+      @if $property == 'color' {
+        color: var(--color-#{$color});
+      } @else if $property == 'background' {
+        background: var(--color-#{$color});
+      }
+    }
+  }
 }
 
-.text-color-neutral-50 {
-    color: var(--color-neutral-50);
-}
+$text-bg-colors: (
+  neutral-0, neutral-50, neutral-100, neutral-200, neutral-300, neutral-400,
+  neutral-500, neutral-600, neutral-700, neutral-800, neutral-900,
+  accent-100, accent-200, accent-300, accent-500, accent-700,
+  success, success-bg, warning, warning-bg, error, error-bg, info, info-bg
+);
 
-.text-color-neutral-100 {
-    color: var(--color-neutral-100);
-}
-
-.text-color-neutral-200 {
-    color: var(--color-neutral-200);
-}
-
-.text-color-neutral-300 {
-    color: var(--color-neutral-300);
-}
-
-.text-color-neutral-400 {
-    color: var(--color-neutral-400);
-}
-
-.text-color-neutral-500 {
-    color: var(--color-neutral-500);
-}
-
-.text-color-neutral-600 {
-    color: var(--color-neutral-600);
-}
-
-.text-color-neutral-700 {
-    color: var(--color-neutral-700);
-}
-
-.text-color-neutral-800 {
-    color: var(--color-neutral-800);
-}
-
-.text-color-neutral-900 {
-    color: var(--color-neutral-900);
-}
-
-.text-color-accent-100 {
-    color: var(--color-accent-100);
-}
-
-.text-color-accent-200 {
-    color: var(--color-accent-200);
-}
-
-.text-color-accent-300 {
-    color: var(--color-accent-300);
-}
-
-.text-color-accent-500 {
-    color: var(--color-accent-500);
-}
-
-.text-color-accent-700 {
-    color: var(--color-accent-700);
-}
-
-.text-color-success {
-    color: var(--color-success);
-}
-
-.text-color-success-bg {
-    color: var(--color-success-bg);
-}
-
-.text-color-warning {
-    color: var(--color-warning);
-}
-
-.text-color-warning-bg {
-    color: var(--color-warning-bg);
-}
-
-.text-color-error {
-    color: var(--color-error);
-}
-
-.text-color-error-bg {
-    color: var(--color-error-bg);
-}
-
-.text-color-info {
-    color: var(--color-info);
-}
-
-.text-color-info-bg {
-    color: var(--color-info-bg);
-}
+@include generate-color-classes('color', 'text-color', $text-bg-colors);
 
 // COLORS — Background
 // ============================================================================
 
-.bg-color-neutral-0 {
-    background: var(--color-neutral-0);
-}
-
-.bg-color-neutral-50 {
-    background: var(--color-neutral-50);
-}
-
-.bg-color-neutral-100 {
-    background: var(--color-neutral-100);
-}
-
-.bg-color-neutral-200 {
-    background: var(--color-neutral-200);
-}
-
-.bg-color-neutral-300 {
-    background: var(--color-neutral-300);
-}
-
-.bg-color-neutral-400 {
-    background: var(--color-neutral-400);
-}
-
-.bg-color-neutral-500 {
-    background: var(--color-neutral-500);
-}
-
-.bg-color-neutral-600 {
-    background: var(--color-neutral-600);
-}
-
-.bg-color-neutral-700 {
-    background: var(--color-neutral-700);
-}
-
-.bg-color-neutral-800 {
-    background: var(--color-neutral-800);
-}
-
-.bg-color-neutral-900 {
-    background: var(--color-neutral-900);
-}
-
-.bg-color-accent-100 {
-    background: var(--color-accent-100);
-}
-
-.bg-color-accent-200 {
-    background: var(--color-accent-200);
-}
-
-.bg-color-accent-300 {
-    background: var(--color-accent-300);
-}
-
-.bg-color-accent-500 {
-    background: var(--color-accent-500);
-}
-
-.bg-color-accent-700 {
-    background: var(--color-accent-700);
-}
-
-.bg-color-success {
-    background: var(--color-success);
-}
-
-.bg-color-success-bg {
-    background: var(--color-success-bg);
-}
-
-.bg-color-warning {
-    background: var(--color-warning);
-}
-
-.bg-color-warning-bg {
-    background: var(--color-warning-bg);
-}
-
-.bg-color-error {
-    background: var(--color-error);
-}
-
-.bg-color-error-bg {
-    background: var(--color-error-bg);
-}
-
-.bg-color-info {
-    background: var(--color-info);
-}
-
-.bg-color-info-bg {
-    background: var(--color-info-bg);
-}
+@include generate-color-classes('background', 'bg-color', $text-bg-colors);
 
 // FONT SIZES
 // ============================================================================
 
-.font-size-display-xl {
-    font-size: var(--font-size-display-xl);
+@mixin font-size-responsive($name) {
+    .font-size-#{$name} {
+        font-size: var(--font-size-#{$name});
+    }
+
+    .font-size-#{$name}-large {
+        @include breakpoint('large') {
+            font-size: var(--font-size-#{$name});
+        }
+    }
+
+    .font-size-#{$name}-medium {
+        @include breakpoint('medium') {
+            font-size: var(--font-size-#{$name}-medium);
+        }
+    }
+
+    .font-size-#{$name}-small {
+        @include breakpoint('small') {
+            font-size: var(--font-size-#{$name}-small);
+        }
+    }
 }
 
-.font-size-display-l {
-    font-size: var(--font-size-display-l);
-}
+$font-sizes: (display-xl, display-l, h1, h2, h3, h4, body-l, body, body-s);
 
-.font-size-h1 {
-    font-size: var(--font-size-h1);
-}
-
-.font-size-h2 {
-    font-size: var(--font-size-h2);
-}
-
-.font-size-h3 {
-    font-size: var(--font-size-h3);
-}
-
-.font-size-h4 {
-    font-size: var(--font-size-h4);
-}
-
-.font-size-body-l {
-    font-size: var(--font-size-body-l);
-}
-
-.font-size-body {
-    font-size: var(--font-size-body);
-}
-
-.font-size-body-s {
-    font-size: var(--font-size-body-s);
+@each $size in $font-sizes {
+  @include font-size-responsive($size);
 }
 
 .font-size-caption {
@@ -416,3 +241,93 @@ $breakpoints: (
 }
 
 @include generate-widths();
+
+
+//Spacing utilities
+// ==============================================================================
+
+$spacing-properties: (
+  'margin':         'margin',
+  'padding':        'padding',
+  'margin-top':     'margin-top',
+  'margin-right':   'margin-right',
+  'margin-bottom':  'margin-bottom',
+  'margin-left':    'margin-left',
+  'padding-top':    'padding-top',
+  'padding-right':  'padding-right',
+  'padding-bottom': 'padding-bottom',
+  'padding-left':   'padding-left',
+  'gap':            'gap',
+  'gap-row':        'row-gap',
+  'gap-column':     'column-gap',
+);
+
+@mixin generate-token-spacing($prop-name, $css-prop) {
+  @for $i from 1 through 10 {
+    .spacing-#{$prop-name}-#{$i} {
+      #{$css-prop}: var(--space-#{$i});
+    }
+
+    .spacing-#{$prop-name}-#{$i}-small {
+      @include breakpoint('small') {
+        #{$css-prop}: var(--space-#{$i}-small);
+      }
+    }
+
+    .spacing-#{$prop-name}-#{$i}-medium {
+      @include breakpoint('medium') {
+        #{$css-prop}: var(--space-#{$i}-medium);
+      }
+    }
+  }
+}
+
+@each $name, $prop in $spacing-properties {
+  @include generate-token-spacing($name, $prop);
+}
+
+// Percentage-based spacing
+// ==============================================================================
+
+$spacing-pct-properties: (
+  'margin':         'margin',
+  'padding':        'padding',
+  'margin-top':     'margin-top',
+  'margin-right':   'margin-right',
+  'margin-bottom':  'margin-bottom',
+  'margin-left':    'margin-left',
+  'padding-top':    'padding-top',
+  'padding-right':  'padding-right',
+  'padding-bottom': 'padding-bottom',
+  'padding-left':   'padding-left',
+);
+
+@mixin generate-pct-spacing($prop-name, $css-prop) {
+  @for $i from 1 through 12 {
+    .spacing-#{$prop-name}-#{$i}-12 {
+      #{$css-prop}: percentage($i / 12);
+    }
+
+    .spacing-#{$prop-name}-lg-#{$i}-12 {
+      @include breakpoint('large') {
+        #{$css-prop}: percentage($i / 12);
+      }
+    }
+
+    .spacing-#{$prop-name}-md-#{$i}-12 {
+      @include breakpoint('medium') {
+        #{$css-prop}: percentage($i / 12);
+      }
+    }
+
+    .spacing-#{$prop-name}-sm-#{$i}-12 {
+      @include breakpoint('small') {
+        #{$css-prop}: percentage($i / 12);
+      }
+    }
+  }
+}
+
+@each $name, $prop in $spacing-pct-properties {
+  @include generate-pct-spacing($name, $prop);
+}
