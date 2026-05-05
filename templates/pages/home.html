@@ -24,7 +24,59 @@ blog:
     {{#each shipping_messages}}
         {{> components/common/alert/alert-info message}}
     {{/each}}
+<style>
 
+.ts-hero {
+  background: linear-gradient(135deg, #3D3A34 0%, #1A1915 100%);
+  min-height: 560px;
+  overflow: hidden;
+}
+
+.ts-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(circle at 30% 40%, rgba(181,173,158,0.15), transparent 60%),
+    repeating-linear-gradient(135deg, rgba(250,248,244,0.02) 0 8px, transparent 8px 18px);
+}
+</style>
+    <div class="ts-mx-auto lg:ts-mx-6-12 ts-flex ts-hero ts-items-end ts-p-8 ts-pt-9 ts-relative ts-text-neutral-50">
+
+  <!-- content -->
+  <div class="ts-relative ts-z-1 ts-w-6-12 md:ts-w-5-12">
+
+    <!-- eyebrow -->
+    <div class="ts-text-accent-200 ts-text-overline ts-uppercase ts-tracking-wider ts-mb-3">
+      The Winter Edit · A/W 2025
+    </div>
+
+    <!-- title -->
+    <h1 class="ts-m-0 ts-text-display-xl ts-font-heading ts-font-normal ts-tracking-tight ts-text-accent-100 ts-mb-4">
+      Warmth,<br/>without<br/>the weight.
+    </h1>
+
+    <!-- description -->
+    <p class="ts-text-body-l ts-text-neutral-200 ts-mb-5 ts-w-10-12">
+      A considered edit of coats, knits, and quiet essentials — made to layer through the season, and the next one.
+    </p>
+
+    <!-- CTA -->
+    <div class="ts-flex ts-gap-3">
+
+       <a href="#" class="ts-bg-neutral-50 ts-text-neutral-900 ts-px-6 ts-py-4 ts-rounded-md">
+        Shop the edit
+      </a>
+
+      <a href="#" class="ts-border-1 ts-text-neutral-50 ts-px-6 ts-py-4 ts-rounded-md">
+        Read the journal
+      </a>
+
+    </div>
+
+  </div>
+
+</div>
 <div class="main full">
     {{#if products.featured}}
         {{> components/products/featured products=products.featured columns=theme_settings.homepage_featured_products_column_count}}

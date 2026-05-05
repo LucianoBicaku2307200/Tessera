@@ -1,333 +1,453 @@
-// Utility classes mapped to design tokens
+// ============================================================================
+// TESSARA UTILITIES (SHORT NAMING, AI-FRIENDLY)
 // ============================================================================
 
-// COLORS — Text
-// ============================================================================
 
-@mixin generate-color-classes($property, $prefix, $colors) {
-  @each $color in $colors {
-    .#{$prefix}-#{$color} {
-      @if $property == 'color' {
-        color: var(--color-#{$color});
-      } @else if $property == 'background' {
-        background: var(--color-#{$color});
+// ============================================================================
+// BREAKPOINTS
+// ============================================================================
+$breakpoints: (
+  sm: $screen-small,
+  md: $screen-medium,
+  lg: $screen-large
+);
+
+@mixin respond($bp) {
+  @media (min-width: map-get($breakpoints, $bp)) {
+    @content;
+  }
+}
+
+@mixin responsive($class) {
+  @each $bp, $size in $breakpoints {
+    .#{$bp}\:#{$class} {
+      @include respond($bp) {
+        @content;
       }
     }
   }
 }
 
-$text-bg-colors: (
-  neutral-0, neutral-50, neutral-100, neutral-200, neutral-300, neutral-400,
-  neutral-500, neutral-600, neutral-700, neutral-800, neutral-900,
+
+// ============================================================================
+// COLORS
+// ============================================================================
+$colors: (
+  neutral-0, neutral-50, neutral-100, neutral-200, neutral-300,
+  neutral-400, neutral-500, neutral-600, neutral-700, neutral-800, neutral-900,
   accent-100, accent-200, accent-300, accent-500, accent-700,
   success, success-bg, warning, warning-bg, error, error-bg, info, info-bg
 );
 
-@include generate-color-classes('color', 'text-color', $text-bg-colors);
-
-// COLORS — Background
-// ============================================================================
-
-@include generate-color-classes('background', 'bg-color', $text-bg-colors);
-
-// FONT SIZES
-// ============================================================================
-
-@mixin font-size-responsive($name) {
-    .font-size-#{$name} {
-        font-size: var(--font-size-#{$name});
+@mixin colors($mode: base) {
+  @if $mode == base {
+    @each $c in $colors {
+      .ts-text-#{$c} { color: var(--color-#{$c}); }
+      .ts-bg-#{$c}   { background-color: var(--color-#{$c}); }
     }
-
-    .font-size-#{$name}-large {
-        @include breakpoint('large') {
-            font-size: var(--font-size-#{$name});
-        }
+  } @else {
+    @each $c in $colors {
+      @include responsive("ts-text-#{$c}") { color: var(--color-#{$c}); }
+      @include responsive("ts-bg-#{$c}")   { background-color: var(--color-#{$c}); }
     }
+  }
+}
 
-    .font-size-#{$name}-medium {
-        @include breakpoint('medium') {
-            font-size: var(--font-size-#{$name}-medium);
-        }
+
+// ============================================================================
+// DISPLAY
+// ============================================================================
+$displays: (block, inline-block, inline, flex, grid, none);
+
+@mixin display($mode: base) {
+  @if $mode == base {
+    @each $d in $displays {
+      .ts-#{$d} { display: $d; }
     }
-
-    .font-size-#{$name}-small {
-        @include breakpoint('small') {
-            font-size: var(--font-size-#{$name}-small);
-        }
+  } @else {
+    @each $d in $displays {
+      @include responsive("ts-#{$d}") { display: $d; }
     }
+  }
 }
 
-$font-sizes: (display-xl, display-l, h1, h2, h3, h4, body-l, body, body-s);
 
-@each $size in $font-sizes {
-  @include font-size-responsive($size);
-}
-
-.font-size-caption {
-    font-size: var(--font-size-caption);
-}
-
-.font-size-overline {
-    font-size: var(--font-size-overline);
-}
-
-.font-heading-family {
-    font-family: var(--font-headings);
-}
-
-.font-body-family {
-    font-family: var(--font-body);
-}
-
-.font-info-family {
-    font-family: var(--font-info);
-}
-
-// BORDER RADIUS
 // ============================================================================
-
-.radius-sm {
-    border-radius: var(--radius-sm);
-}
-
-.radius-md {
-    border-radius: var(--radius-md);
-}
-
-.radius-lg {
-    border-radius: var(--radius-lg);
-}
-
-.radius-xl {
-    border-radius: var(--radius-xl);
-}
-
-.radius-full {
-    border-radius: var(--radius-full);
-}
-
-// SHADOWS
+// FLEX
 // ============================================================================
+@mixin flex() {
 
-.shadow-0 {
-    box-shadow: var(--shadow-0);
+  .ts-flex { display: flex; }
+  .ts-inline-flex { display: inline-flex; }
+
+  @each $dir in (row, column) {
+    .ts-flex-#{$dir} { flex-direction: $dir; }
+  }
+
+  @each $j in (start, center, end, between, around) {
+    .ts-justify-#{$j} {
+      justify-content:
+        if($j == start, flex-start,
+        if($j == end, flex-end,
+        if($j == between, space-between,
+        if($j == around, space-around, center))));
+    }
+  }
+
+  @each $a in (start, center, end, stretch) {
+    .ts-items-#{$a} {
+      align-items:
+        if($a == start, flex-start,
+        if($a == end, flex-end, $a));
+    }
+  }
 }
 
-.shadow-1 {
-    box-shadow: var(--shadow-1);
-}
 
-.shadow-2 {
-    box-shadow: var(--shadow-2);
-}
-
-.shadow-3 {
-    box-shadow: var(--shadow-3);
-}
-
-.shadow-4 {
-    box-shadow: var(--shadow-4);
-}
-
-// BORDERS
 // ============================================================================
-
-.border-hairline {
-    border: var(--border-hairline);
-}
-
-.border-1 {
-    border: var(--border-1);
-}
-
-.border-2 {
-    border: var(--border-2);
-}
-
-// MOTION
+// GRID
 // ============================================================================
+@mixin grid($mode: base) {
+  @if $mode == base {
+    .ts-grid { display: grid; }
 
-.ease {
-    transition-timing-function: var(--ease);
+    @for $i from 1 through 12 {
+      .ts-cols-#{$i} {
+        grid-template-columns: repeat(#{$i}, 1fr);
+      }
+    }
+  } @else {
+    @for $i from 1 through 12 {
+      @include responsive("ts-cols-#{$i}") {
+        grid-template-columns: repeat(#{$i}, 1fr);
+      }
+    }
+  }
 }
 
-// Layout 
-// ============================================================================
 
-$breakpoints: (
-  'sm': stencilText('tessera-breakpoint-small'),
-  'md': stencilText('tessera-breakpoint-medium'),
-  'lg': stencilText('tessera-breakpoint-large'),
+// ============================================================================
+// WIDTH / HEIGHT
+// ============================================================================
+@mixin sizing($mode: base) {
+  @if $mode == base {
+    .ts-w-full { width: 100%; }
+    .ts-w-auto { width: auto; }
+    .ts-h-full { height: 100%; }
+    .ts-h-auto { height: auto; }
+
+    @for $i from 1 through 12 {
+      .ts-w-#{$i}-12 { width: percentage($i / 12); }
+      .ts-h-#{$i}-12 { height: percentage($i / 12); }
+    }
+  } @else {
+    @for $i from 1 through 12 {
+      @include responsive("ts-w-#{$i}-12") { width: percentage($i / 12); }
+      @include responsive("ts-h-#{$i}-12") { height: percentage($i / 12); }
+    }
+  }
+}
+
+
+// ============================================================================
+// SPACING (TOKEN)
+// ============================================================================
+$space-map: (
+  m: margin,
+  mt: margin-top,
+  mr: margin-right,
+  mb: margin-bottom,
+  ml: margin-left,
+  mx: (margin-left, margin-right),
+  my: (margin-top, margin-bottom),
+  p: padding,
+  pt: padding-top,
+  pr: padding-right,
+  pb: padding-bottom,
+  pl: padding-left,
+  px: (padding-left, padding-right),
+  py: (padding-top, padding-bottom),
+  gap: gap,
+  gap-x: column-gap,
+  gap-y: row-gap
 );
 
-
-@mixin apply-grid($config) {
-  @if map-get($config, 'cols') {
-    grid-template-columns: repeat(map-get($config, 'cols'), 1fr);
-  }
-
-  $gap:   map-get($config, 'gap');
-  $gap-x: map-get($config, 'gap-x');
-  $gap-y: map-get($config, 'gap-y');
-
-  @if $gap-x      { column-gap: $gap-x; }
-  @else if $gap   { column-gap: $gap; }
-
-  @if $gap-y      { row-gap: $gap-y; }
-  @else if $gap   { row-gap: $gap; }
-}
-
-@mixin grid-layout($lg: null, $md: null, $sm: null) {
-  display: grid;
-
-  @if $lg { @include apply-grid($lg); }
-
-  @if $md {
-    @media (max-width: 1024px) {
-      @include apply-grid($md);
-    }
-  }
-
-  @if $sm {
-    @media (max-width: 640px) {
-      @include apply-grid($sm);
-    }
-  }
-}
-
-// Generate .grid-col-1 through .grid-col-12
-@for $i from 1 through 12 {
-  .grid-col-#{$i} {
-    @include grid-layout(
-      $lg: ('cols': $i,                   'gap': 12px),
-      $md: ('cols': max(1, $i / 2),       'gap-x': 1rem,  'gap-y': 2rem),
-      $sm: ('cols': max(1, $i / 4),       'gap': 0.5rem),
-    );
-  }
-}
-
-//Width utilities
-// ==============================================================================
-
-@mixin generate-widths() {
-  @for $i from 1 through 12 {
-
-    // base - no breakpoint
-    .width-#{$i}-12 {
-      width: percentage($i / 12);
-    }
-
-    // lg
-    .width-lg-#{$i}-12 {
-      @include  breakpoint('large') {
-        width: percentage($i / 12);
+@mixin spacing($mode: base) {
+  @if $mode == base {
+    @each $prefix, $prop in $space-map {
+      @for $i from 1 through 10 {
+        .ts-#{$prefix}-#{$i} {
+          @if type-of($prop) == 'list' {
+            @each $p in $prop { #{$p}: var(--space-#{$i}); }
+          } @else {
+            #{$prop}: var(--space-#{$i});
+          }
+        }
       }
     }
-
-    // md
-    .width-md-#{$i}-12 {
-      @include  breakpoint('medium') {
-        width: percentage($i / 12);
-      }
-    }
-
-    // sm
-    .width-sm-#{$i}-12 {
-      @include  breakpoint('small') {
-        width: percentage($i / 12);
+  } @else {
+    @each $prefix, $prop in $space-map {
+      @for $i from 1 through 10 {
+        @include responsive("ts-#{$prefix}-#{$i}") {
+          @if type-of($prop) == 'list' {
+            @each $p in $prop { #{$p}: var(--space-#{$i}); }
+          } @else {
+            #{$prop}: var(--space-#{$i});
+          }
+        }
       }
     }
   }
 }
 
-@include generate-widths();
+
+// ============================================================================
+// SPACING (%)
+// ============================================================================
+@mixin spacing-pct($mode: base) {
+  @if $mode == base {
+    @each $prefix, $prop in $space-map {
+      @for $i from 1 through 12 {
+        .ts-#{$prefix}-#{$i}-12 {
+          @if type-of($prop) == 'list' {
+            @each $p in $prop { #{$p}: percentage($i / 12); }
+          } @else {
+            #{$prop}: percentage($i / 12);
+          }
+        }
+      }
+    }
+  } @else {
+    @each $prefix, $prop in $space-map {
+      @for $i from 1 through 12 {
+        @include responsive("ts-#{$prefix}-#{$i}-12") {
+          @if type-of($prop) == 'list' {
+            @each $p in $prop { #{$p}: percentage($i / 12); }
+          } @else {
+            #{$prop}: percentage($i / 12);
+          }
+        }
+      }
+    }
+  }
+}
 
 
-//Spacing utilities
-// ==============================================================================
-
-$spacing-properties: (
-  'margin':         'margin',
-  'padding':        'padding',
-  'margin-top':     'margin-top',
-  'margin-right':   'margin-right',
-  'margin-bottom':  'margin-bottom',
-  'margin-left':    'margin-left',
-  'padding-top':    'padding-top',
-  'padding-right':  'padding-right',
-  'padding-bottom': 'padding-bottom',
-  'padding-left':   'padding-left',
-  'gap':            'gap',
-  'gap-row':        'row-gap',
-  'gap-column':     'column-gap',
+// ============================================================================
+// MARGIN AUTO
+// ============================================================================
+$margin-auto-map: (
+  m:  (margin),
+  mt: (margin-top),
+  mr: (margin-right),
+  mb: (margin-bottom),
+  ml: (margin-left),
+  mx: (margin-left, margin-right),
+  my: (margin-top, margin-bottom),
 );
 
-@mixin generate-token-spacing($prop-name, $css-prop) {
-  @for $i from 1 through 10 {
-    .spacing-#{$prop-name}-#{$i} {
-      #{$css-prop}: var(--space-#{$i});
-    }
-
-    .spacing-#{$prop-name}-#{$i}-small {
-      @include breakpoint('small') {
-        #{$css-prop}: var(--space-#{$i}-small);
+@mixin margin-auto($mode: base) {
+  @if $mode == base {
+    @each $prefix, $props in $margin-auto-map {
+      .ts-#{$prefix}-auto {
+        @each $p in $props { #{$p}: auto; }
       }
     }
-
-    .spacing-#{$prop-name}-#{$i}-medium {
-      @include breakpoint('medium') {
-        #{$css-prop}: var(--space-#{$i}-medium);
+  } @else {
+    @each $prefix, $props in $margin-auto-map {
+      @include responsive("ts-#{$prefix}-auto") {
+        @each $p in $props { #{$p}: auto; }
       }
     }
   }
 }
 
-@each $name, $prop in $spacing-properties {
-  @include generate-token-spacing($name, $prop);
+
+// ============================================================================
+// RADIUS
+// ============================================================================
+@each $r in (sm, md, lg, xl, full) {
+  .ts-rounded-#{$r} {
+    border-radius: var(--radius-#{$r});
+  }
 }
 
-// Percentage-based spacing
-// ==============================================================================
 
-$spacing-pct-properties: (
-  'margin':         'margin',
-  'padding':        'padding',
-  'margin-top':     'margin-top',
-  'margin-right':   'margin-right',
-  'margin-bottom':  'margin-bottom',
-  'margin-left':    'margin-left',
-  'padding-top':    'padding-top',
-  'padding-right':  'padding-right',
-  'padding-bottom': 'padding-bottom',
-  'padding-left':   'padding-left',
+// ============================================================================
+// SHADOW
+// ============================================================================
+@for $i from 0 through 4 {
+  .ts-shadow-#{$i} {
+    box-shadow: var(--shadow-#{$i});
+  }
+}
+
+
+// ============================================================================
+// BORDER
+// ============================================================================
+@each $b in (hairline, 1, 2) {
+  .ts-border-#{$b} {
+    border: var(--border-#{$b});
+  }
+}
+
+
+// ============================================================================
+// POSITION
+// ============================================================================
+@each $p in (relative, absolute, fixed, sticky) {
+  .ts-#{$p} { position: $p; }
+}
+
+
+// ============================================================================
+// Z-INDEX
+// ============================================================================
+@for $i from 0 through 5 {
+  .ts-z-#{$i} { z-index: $i; }
+}
+.ts-z-999 { z-index: 999; }
+
+// ============================================================================
+// OPACITY
+// ============================================================================
+@for $i from 0 through 10 {
+  .ts-opacity-#{$i} {
+    opacity: $i / 10;
+  }
+}
+
+// ============================================================================
+// FONT SIZE
+// ============================================================================
+$font-sizes: (
+  display-xl,
+  display-l,
+  h1,
+  h2,
+  h3,
+  h4,
+  body-l,
+  body,
+  body-s,
+  caption,
+  overline
 );
 
-@mixin generate-pct-spacing($prop-name, $css-prop) {
-  @for $i from 1 through 12 {
-    .spacing-#{$prop-name}-#{$i}-12 {
-      #{$css-prop}: percentage($i / 12);
-    }
-
-    .spacing-#{$prop-name}-lg-#{$i}-12 {
-      @include breakpoint('large') {
-        #{$css-prop}: percentage($i / 12);
+@mixin font-size($mode: base) {
+  @if $mode == base {
+    @each $size in $font-sizes {
+      .ts-text-#{$size} {
+        font-size: var(--font-size-#{$size});
       }
     }
-
-    .spacing-#{$prop-name}-md-#{$i}-12 {
-      @include breakpoint('medium') {
-        #{$css-prop}: percentage($i / 12);
-      }
-    }
-
-    .spacing-#{$prop-name}-sm-#{$i}-12 {
-      @include breakpoint('small') {
-        #{$css-prop}: percentage($i / 12);
+  } @else {
+    @each $size in $font-sizes {
+      @include responsive("ts-text-#{$size}") {
+        font-size: var(--font-size-#{$size});
       }
     }
   }
 }
 
-@each $name, $prop in $spacing-pct-properties {
-  @include generate-pct-spacing($name, $prop);
+
+// ============================================================================
+// FONT WEIGHT
+// ============================================================================
+$font-weights: (
+  thin: 100,
+  light: 300,
+  normal: 400,
+  medium: 500,
+  semibold: 600,
+  bold: 700
+);
+
+@mixin font-weight($mode: base) {
+  @if $mode == base {
+    @each $name, $value in $font-weights {
+      .ts-font-#{$name} {
+        font-weight: $value;
+      }
+    }
+  } @else {
+    @each $name, $value in $font-weights {
+      @include responsive("ts-font-#{$name}") {
+        font-weight: $value;
+      }
+    }
+  }
 }
+
+
+// ============================================================================
+// FONT FAMILY
+// ============================================================================
+.ts-font-heading { font-family: var(--font-headings); }
+.ts-font-body    { font-family: var(--font-body); }
+.ts-font-info    { font-family: var(--font-info); }
+
+// ============================================================================
+// TEXT ALIGN
+// ============================================================================
+@each $align in (left, center, right) {
+  .ts-text-#{$align} {
+    text-align: $align;
+  }
+}
+
+// ============================================================================
+// TEXT TRANSFORM
+// ============================================================================
+@each $t in (uppercase, lowercase, capitalize) {
+  .ts-#{$t} {
+    text-transform: $t;
+  }
+}
+
+
+// ============================================================================
+// LETTER SPACING
+// ============================================================================
+$tracking: (
+  tight: -0.02em,
+  normal: 0,
+  wide: 0.05em,
+  wider: 0.1em
+);
+
+@each $name, $value in $tracking {
+  .ts-tracking-#{$name} {
+    letter-spacing: $value;
+  }
+}
+
+
+// ============================================================================
+// OUTPUT — BASE PASS (all base classes first)
+// ============================================================================
+@include flex();
+@include colors(base);
+@include display(base);
+@include grid(base);
+@include sizing(base);
+@include spacing(base);
+@include spacing-pct(base);
+@include margin-auto(base);
+@include font-size(base);
+@include font-weight(base);
+
+
+// ============================================================================
+// OUTPUT — RESPONSIVE PASS (all responsive classes after all base)
+// ============================================================================
+@include colors(responsive);
+@include display(responsive);
+@include grid(responsive);
+@include sizing(responsive);
+@include spacing(responsive);
+@include spacing-pct(responsive);
+@include margin-auto(responsive);
+@include font-size(responsive);
+@include font-weight(responsive);
