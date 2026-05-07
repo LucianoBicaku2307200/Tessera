@@ -1,0 +1,41 @@
+/* Tooltip */
+.ts-tooltip {
+  display: inline-flex;
+  position: relative;
+}
+.ts-tooltip .ts-bubble {
+  display: none;
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--color-neutral-900);
+  color: var(--color-neutral-50);
+  font-size: var(--font-size-caption);
+  padding: 6px 10px;
+  border-radius: var(--radius-md);
+  white-space: nowrap;
+  box-shadow: var(--shadow-2);
+}
+
+.ts-tooltip .ts-bubble::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 4px solid transparent;
+  border-top-color: var(--color-neutral-900);
+}
+
+.ts-tooltip:hover,
+.ts-tooltip:focus,
+.ts-tooltip:focus-within {
+  .ts-bubble {
+    display: block;
+
+    &::after {
+      display: block;
+    }
+  }
+}

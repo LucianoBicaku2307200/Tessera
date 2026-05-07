@@ -8,6 +8,7 @@
 // 3. Tessera theme buttons.
 // 4. Tessera theme form elements.
 // 5. Tessera theme badges.
+// 6. Tessera theme tooltips.
 // last. Tessera theme utility classes.
 //
 // -----------------------------------------------------------------------------
@@ -21,6 +22,7 @@
 @import "tessara/forms"; // 3
 @import "tessara/badge"; // 4
 @import "tessara/icons"; // 5;
+@import "tessara/tooltip"; // 6
 
 //alwayes last
 @import "tessara/utility-classes"; //last
