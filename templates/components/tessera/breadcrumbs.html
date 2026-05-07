@@ -1,0 +1,36 @@
+{{#unless theme_settings.hide_breadcrumbs }}
+<nav aria-label="Breadcrumb">
+    <ol class="ts-breadcrumbs">
+        {{#each breadcrumbs}}
+
+        <a href="#" 
+            class="{{#if @last}}ts-breadcrumbs-current{{/if}}"
+            href="{{url}}" 
+            {{#if @last}}aria-current="page" {{/if}}
+        >
+            {{name}}
+        </a>
+        {{#unless @last}}<span class="ts-sep">/</span>{{/unless}}
+        {{/each}}
+    </ol>
+</nav>
+{{/unless}}
+<script type="application/ld+json" nonce="{{nonce}}">
+{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement":
+    [
+        {{#each breadcrumbs}}
+        {
+            "@type": "ListItem",
+            "position": {{add @index 1}},
+            "item": {
+                "@id": {{{JSONstringify url}}},
+                "name": {{{JSONstringify name}}}
+            }
+        }{{#unless @last}},{{/unless}}
+        {{/each}}
+    ]
+}
+</script>

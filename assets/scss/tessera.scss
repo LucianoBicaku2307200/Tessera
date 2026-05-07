@@ -10,6 +10,7 @@
 // 5. Tessera theme badges.
 // 6. Tessera theme tooltips.
 // 7. Tessera theme pagination.
+// 8. Tessera theme breadcrumbs.
 // last. Tessera theme utility classes.
 //
 // -----------------------------------------------------------------------------
@@ -25,6 +26,7 @@
 @import "tessara/icons"; // 5;
 @import "tessara/tooltip"; // 6
 @import "tessara/pagination"; // 7;
+@import "tessara/breadcrumbs"; // 8
 
 //alwayes last
 @import "tessara/utility-classes"; //last
