@@ -1,0 +1,60 @@
+/* ---- Badges / tags ---- */
+.ts-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-sans);
+  font-size: var(--font-size-caption);
+  font-weight: 500;
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  border: 1px solid transparent;
+  line-height: 1.2;
+}
+
+.ts-badge svg{
+  transform: translateY(-2px);
+}
+.ts-badge.ts-square {
+  border-radius: var(--radius-sm);
+}
+.ts-badge-default {
+  background: var(--color-neutral-100);
+  color: var(--color-neutral-900);
+}
+.ts-badge-outline {
+  background: transparent;
+  color: var(--color-neutral-900);
+  border-color: var(--color-neutral-300);
+}
+.ts-badge-accent {
+  background: var(--color-accent-500);
+  color: var(--color-neutral-0);
+}
+.ts-badge-ink {
+  background: var(--color-neutral-900);
+  color: var(--color-neutral-50);
+}
+.ts-badge-success {
+  background: var(--color-success-bg);
+  color: var(--color-success);
+}
+.ts-badge-warning {
+  background: var(--color-warning-bg);
+  color: var(--color-warning);
+}
+.ts-badge-error {
+  background: var(--color-error-bg);
+  color: var(--color-error);
+}
+.ts-badge-info {
+  background: var(--color-info-bg);
+  color: var(--color-info);
+}
+.ts-badge .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+  display: inline-block;
+}

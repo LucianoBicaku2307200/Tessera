@@ -6,7 +6,7 @@ button {
   cursor: pointer;
 }
 
-.btn {
+.ts-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -28,59 +28,64 @@ button {
   white-space: nowrap;
 }
 
-.btn-sm {
+.ts-btn-sm {
   padding: var(--space-2) var(--space-3);
   font-size: var(--font-size-caption);
 }
-.btn-lg {
+.ts-btn-md {
+  padding: var(--space-3) var(--space-5);
+  font-size: var(--font-size-caption);
+}
+
+.ts-btn-lg {
   padding: var(--space-4) var(--space-6);
   font-size: var(--font-size-body);
 }
 
-.btn-primary {
+.ts-btn-primary {
   background: var(--color-neutral-900);
   color: var(--color-neutral-50);
 }
-.btn-primary:hover {
+.ts-btn-primary:hover {
   background: transparent;
   color: var(--color-neutral-900);
   border-color: var(--color-neutral-900);
 }
-.btn-primary:active {
+.ts-btn-primary:active {
   background: var(--color-neutral-700);
 }
-.btn-primary:focus-visible {
+.ts-btn-primary:focus-visible {
   outline: 2px solid var(--color-accent-500);
   outline-offset: var(--space-1);
 }
 
-.btn-secondary {
+.ts-btn-secondary {
   background: transparent;
   color: var(--color-neutral-900);
   border-color: var(--color-neutral-900);
 }
-.btn-secondary:hover {
+.ts-btn-secondary:hover {
   background: var(--color-neutral-900);
   color: var(--color-neutral-50);
 }
 
-.btn-tertiary {
+.ts-btn-tertiary {
   background: var(--color-neutral-100);
   color: var(--color-neutral-900);
 }
-.btn-tertiary:hover {
+.ts-btn-tertiary:hover {
   background: var(--color-neutral-200);
 }
 
-.btn-ghost {
+.ts-btn-ghost {
   background: transparent;
   color: var(--color-neutral-900);
 }
-.btn-ghost:hover {
+.ts-btn-ghost:hover {
   background: var(--color-neutral-100);
 }
 
-.btn-link {
+.ts-btn-link {
   background: none;
   border: 0;
   padding: var(--space-1) 0;
@@ -89,37 +94,37 @@ button {
   text-underline-offset: var(--space-1);
   text-decoration-color: var(--color-neutral-300);
 }
-.btn-link:hover {
+.ts-btn-link:hover {
   text-decoration-color: var(--color-neutral-900);
 }
 
-.btn-destructive {
+.ts-btn-destructive {
   background: var(--color-error);
   color: var(--color-neutral-0);
 }
-.btn-destructive:hover {
+.ts-btn-destructive:hover {
   background: #6f2d24;
 }
 
-.btn[disabled],
-.btn.is-disabled {
+.ts-btn[disabled],
+.ts-btn.is-disabled {
   opacity: 0.45;
   cursor: not-allowed;
   pointer-events: none;
 }
 
-.btn-icon {
-  width: var(--space-10);
-  height: var(--space-10);
+.ts-btn-icon {
+  width: var(--space-5);
+  height: var(--space-5);
   padding: 0;
   border-radius: var(--radius-md);
 }
-.btn-icon.btn-sm {
+.ts-btn-icon.ts-btn-sm {
   width: var(--space-8);
   height: var(--space-8);
 }
 
-.btn .spinner {
+.ts-btn .spinner {
   width: 14px;
   height: 14px;
   border-radius: 50%;
@@ -131,16 +136,4 @@ button {
   to {
     transform: rotate(360deg);
   }
-}
-
-.ico {
-  width: 14px;
-  height: 14px;
-  stroke: currentColor;
-  fill: none;
-  stroke-width: 1.5;
-}
-.ico-lg {
-  width: 18px;
-  height: 18px;
 }

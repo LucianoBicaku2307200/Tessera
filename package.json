@@ -74,6 +74,7 @@
     "test": "npx jest",
     "test:watch": "npx jest --watch",
     "stylelint": "npx stylelint **/*.scss",
-    "stylelint:fix": "npx stylelint --fix **/*.scss"
+    "stylelint:fix": "npx stylelint --fix **/*.scss",
+    "gen:css-data": "node scripts/generate-css-data.js"
   }
 }

@@ -1,0 +1,26 @@
+// =============================================================================
+// TESSARA UTILITIES — standalone CSS entry
+// Compiled separately from theme.css for cache separation.
+// =============================================================================
+//
+// 1. Tessera theme variables and overrides.
+// 2. Tessera theme icons.
+// 3. Tessera theme buttons.
+// 4. Tessera theme form elements.
+// 5. Tessera theme badges.
+// last. Tessera theme utility classes.
+//
+// -----------------------------------------------------------------------------
+
+@import "../../node_modules/@bigcommerce/citadel/dist/tools/toolkit";
+@import "tools/tools";
+@import "settings/global/global";
+
+@import "tessara/variables"; // 1
+@import "tessara/buttons"; // 2
+@import "tessara/forms"; // 3
+@import "tessara/badge"; // 4
+@import "tessara/icons"; // 5;
+
+//alwayes last
+@import "tessara/utility-classes"; //last

@@ -17,3 +17,5 @@ claude/
 claude.md
 
 widgets/
+.vscode/
+scripts/

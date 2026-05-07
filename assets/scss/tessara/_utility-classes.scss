@@ -136,11 +136,21 @@ $displays: (block, inline-block, inline, flex, grid, none);
     .ts-h-full { height: 100%; }
     .ts-h-auto { height: auto; }
 
+    @for $i from 1 through 10 {
+      .ts-w-#{$i} { width: var(--space-#{$i}); }
+      .ts-h-#{$i} { height: var(--space-#{$i}); }
+    }
+
     @for $i from 1 through 12 {
       .ts-w-#{$i}-12 { width: percentage($i / 12); }
       .ts-h-#{$i}-12 { height: percentage($i / 12); }
     }
   } @else {
+    @for $i from 1 through 10 {
+      @include responsive("ts-w-#{$i}") { width: var(--space-#{$i}); }
+      @include responsive("ts-h-#{$i}") { height: var(--space-#{$i}); }
+    }
+
     @for $i from 1 through 12 {
       @include responsive("ts-w-#{$i}-12") { width: percentage($i / 12); }
       @include responsive("ts-h-#{$i}-12") { height: percentage($i / 12); }
@@ -290,6 +300,10 @@ $margin-auto-map: (
   .ts-border-#{$b} {
     border: var(--border-#{$b});
   }
+}
+
+@each $c in $colors {
+  .ts-border-#{$c} { border-color: var(--color-#{$c}); }
 }
 
 
