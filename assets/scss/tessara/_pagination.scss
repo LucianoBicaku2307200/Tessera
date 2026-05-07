@@ -1,0 +1,38 @@
+/* Pagination */
+.ts-pagination {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.ts-pagination .ts-pg {
+  min-width: 34px;
+  height: 34px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-mono);
+  font-size: var(--font-size-body-s);
+  color: var(--color-neutral-700);
+  border: 1px solid transparent;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  background: transparent;
+}
+.ts-pagination .ts-pg:hover {
+  background: var(--color-neutral-100);
+}
+.ts-pagination .ts-pg-active {
+  background: var(--color-neutral-900);
+  color: var(--color-neutral-50);
+
+  &:hover {
+    background: var(--color-neutral-900);
+  }
+}
+.ts-pagination .ts-nav {
+  color: var(--color-neutral-900);
+}
+.ts-pagination .ts-pg[disabled] {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
