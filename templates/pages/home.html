@@ -12,7 +12,6 @@ blog:
         limit: {{theme_settings.homepage_blog_posts_count}}
 ---
 
-
 {{#partial "page"}}
     {{#> components/tessera/section-wrapper title="badges"}}
         {{> components/tessera/badges}}
@@ -26,6 +25,10 @@ blog:
         {{> components/tessera/pagination}}
         <br>
       {{!--  {{> components/tessera/breadcrumbs}} --}} 
+    {{/components/tessera/section-wrapper}}
+
+    {{#> components/tessera/section-wrapper title="tooltips/pagination/breadcrumbs"}}
+        test
     {{/components/tessera/section-wrapper}}
 {{/partial}}
 
